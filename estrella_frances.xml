@@ -1,0 +1,2533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="estrella.rnc" type="compact"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0"
+    xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>La Estrella de Sevilla</title>
+                <author></author>
+            </titleStmt>
+            <publicationStmt>
+                <pubPlace>London</pubPlace>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ns">http://www.example.org/ns/nonTEI</note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author/>
+                        <title>The Star of Seville: a drama in three acts and in verse attributed to Lope de
+                            Vega</title>
+                        <imprint>
+                            <pubPlace/>
+                            <publisher/>
+                            <date/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>MA Dissertation</p>
+            </projectDesc>
+            <editorialDecl>
+
+                <normalization>
+                    <p>normalización de grafías</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>The text was marked in May and June 2010</creation>
+            <langUsage>
+                <language ident="EN">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <text>
+
+        <body>
+            <div>
+                <head>Dramatis Personae</head>
+
+                <castList>
+                    <castItem>
+                        <role xml:id="REY">LE ROI DON SANCHE LE BRAVE.</role>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="ARI">DON ARIAS.</role>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="PED">DON PEDRO DE GUZMAN,</role>
+                    <roleDesc>premier alcade de Séville.</roleDesc>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="FAR">FARFAN DE RIBERA,</role>
+                    <roleDesc>premier alcade de Séville.</roleDesc>
+                    </castItem>
+
+                    <castItem>
+                        <role xml:id="GON">DON GONZALO DE ULLOA.</role>
+                        <roleDesc/>
+                    </castItem>
+
+                    <castItem>
+                        <role xml:id="FER">FERNAN PEREZ DE MEDINA.</role>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="SAN">DON SANCHO ORTIZ.</role></castItem>
+                    <castItem>
+                        <role xml:id="BUS">BUSTO TABERA.</role>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="EST">ESTELLE.</role>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="TEO">TEODORA.</role>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="MAT">MATHILDE,</role>
+                    </castItem>
+
+                    <castItem>
+                        <role xml:id="INI">DON INIGO OSORIO.</role></castItem>
+                    <castItem>
+                        <role xml:id="MAN">DON MANUEL.</role>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="CLA">CLARINDO.</role>
+                    </castItem>
+                    <castItem>
+                        <role xml:id="CAU">L'ALCAIDE du château de Triana.</role>
+                        <roleDesc>governor of Triana castle and prison.</roleDesc>
+                    </castItem>
+
+                    <castItem>GENS DE LA SUITE, PAGES ET SERVITEURS, MUSICIENS.</castItem>
+                </castList>
+            </div>
+            <div type="jornada" n="1">
+                <stage>La scène est à Séville.</stage> 
+
+
+
+<stage>PREMIÈRE JOURNÉE</stage>
+
+
+
+<stage>SCÈNE I</stage> 
+
+<stage>Salon de l'Alcazar. </stage>
+
+<stage>LE ROI, DON ARIAS, DON PEDRO DE GUZMAN, 
+FARFAN DE RIBERA.</stage> 
+<sp who="#REY">
+<speaker>LE ROI</speaker> <p>Je suis touché de l'empressement de Séville, 
+et je me regarde désormais comme le véritable souverain 
+de l'Espagne. D'aujourd'hui mon règne commence puisque 
+aujourd'hui Séville m'honore et m'appuie. Nul ne pourrait 
+se dire roi d'Espagne qui ne régnerait pas dans Séville. 
+Je tiens à la payer des frais de ma réception, des magnificences de mon entrée. Ma cour s'arrêtera quelque temps 
+en vos murs. Il est naturel que la cour de Gaslille s'établisse à Séville, puisque régner à Séville, c'est régner en 
+Gastille.</p></sp> 
+
+<sp who="#PED"><speaker>DON PEDRO</speaker><p>Nous, ses premiers alcades, nous demandons à baiser vos pieds, car c'est le nom de Séville qui 
+nous a valu vos faveurs. Du consentement de la municipalité, les jurats et consuls font offrande à Votre Majesté 
+de leur fortune et de leur dévouement, à la seule condition que les privilèges de notre cité n'en recevront point de 
+dommage.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Je le promets.</p> </sp>
+
+<sp who="#PED"><speaker>DON PEDRO</speaker> <p>Permettez-nous de baiser vos mains.</p></sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Vous m'avez accueilli en dignes citoyens de 
+Séville, et j'espère, avec votre concours, me rendre maître 
+de Gibraltar, qui dort sans défiance non loin du détroit, 
+et si la fortune m'est favorable, je ferai que le More compte 
+avec moi.</p></sp> 
+
+<sp who="#FAR"><speaker>FARFAN</speaker> <p>Dans une si haute entreprise, Séville loyale 
+appuiera Votre Altesse de ses troupes, leur sang vous appartient.</p> </sp>
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Le roi n'en doute pas, messieurs. Il demeure satisfait de vous, et accepte vos offres.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Séville m'a convaincu, persuadé. Allez avec 
+Dieu.</p> </sp>
+
+<stage>(Les Alcades sortent.) </stage>
+
+<stage>SCÈNE II</stage> 
+
+<stage>LE ROI, DON ARIAS. </stage>
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Eh bien, seigneur, que vous semble de 
+Séville.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Il me semble que d'aujourd'hui seulement je 
+suis roi.</p></sp> 
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Attentive à mériter vos faveurs, chaque 
+jour vous la rendra plus chère.</p></sp>
+
+
+<sp who="#REY"><speaker>LE ROI</speaker><p>Il est sûr que devant vivre quelque temps au 
+milieu d'elle, je n'aurai que plus de loisir pour apprécier 
+cette belle et riche cité.</p> </sp>
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker><p>Je doute que la Rome d'autrefois ait égalé 
+les merveilles de ses monuments, son opulence, ses richesses.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Et ces beautés divines, pourquoi les passer 
+sous silence? Pourquoi taire, dissimuler leur splendeur, 
+leur éclat ? Gomment ne t'es-tu pas enflammé, dis, au feu 
+de tant de soleils ?</p></sp> 
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker><p>Doña Leonor de Ribera paraissait vraiment un ciel, et son visage brillait comme le soleil du 
+printemps.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Oui, comme le soleil, si elle était moins blanche. Un soleil aux rayons de neige mérite peu d'éloges, s'il 
+refroidit au lieu d'échauffer. J'aime un soleil qui enflamme, 
+non un soleil aux tièdes rayons.</p></sp> 
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Celle qui vous a jeté des roses se nomme 
+doña Mencia Coronel.</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Belle personne, mais j'en ai vu de plus jolies.</p> </sp>
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Les deux piquantes brunes qui étaient à 
+la fenêtre d'après sont doña Ana et doña Beatrix Mejia, 
+deux sœurs dont le jour reçoit une nouvelle splendeur. 
+Celle qui, blanche et blonde...</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker><p> Je n'ai pas besoin de son nom. Tu vas la com- 
+parer au marbre et au lis, n'est-ce pas? Ta description 
+qui ne finit point m'oblige à te révéler ma peine. — Que 
+parles-tu de brunes et de blondes? J'ai vu la grâce en 
+personne, et d'elle tu ne parles point. Qui est celle qui, à 
+son balcon, attira tellement mon attention, que je m'arrêtai en suspens, et lui ôtai mon chapeau? Celle dont les 
+deux yeux sont des éclairs, non moins capables d'embraser 
+que les feux de Jupiter, et qui, sans le savoir, me donnent 
+la mort; celle qui, parmi les ténèbres, brillait comme le 
+soleil, et paraissait comme une aurore dans la nuit, celle 
+dont la beauté éclipsait ses purs rayons, celle...</p> </sp>
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>J'y suis, monseigneur. Ce miracle de 
+beauté, on l'appelle Y Etoile de Séville.</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker><p>Si elle est plus.belle que le soleil, c'est une offense que ce nom. Comment Séville ne sent-elle pas que 
+l'éclat de sa beauté mérite d'être appelé soleil, puisque, pareille à l'astre du jour, elle échauffe et vivifie ?</p> </sp>
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker><p>Son nom de famille est doña Estrella 
+Tabera. Elle a un frère qui, naturellement, veut la marier 
+à Sévilie.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Et ce frère se nomme...</p></sp> 
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Busto Tabera. Il est régidor 1 de Séville, 
+titre que justifie sa qualité.</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Est-il marié ?</p> </sp>
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Non. Astre principal dans la sphère de 
+Séville, comme sa sœur est étoile, — l'étoile et le soleil 
+vivent réunis.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Bonne est l'étoile qui m'a conduit à Séville, et 
+je me féliciterai beaucoup, si elle est aussi heureuse que je 
+le souhaite. Quel moyen trouveras-tu, don Arias, pour que 
+je voie Estelle, pour que je lui parle ?</p></sp> 
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Vous verrez cette étoile favorable, nonob- 
+stant le voisinage du soleil. Vous pouvez élever son frère 
+en dignité. L'honneur le plus rigide résiste mal aux assauts 
+de la faveur. Soyez-lui favorable ; les grâces ont le pouvoir 
+de forcer les résistances, d'obtenir l'impossible. S'il accepte 
+vos offres, il s'oblige, et, se sentant obligé, il voudra reconnaître ce qu'il a reçu. Donner vaut une inscription sur 
+le bronze.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Mande-le ici de ma part, et arrange-toi en 
+même temps pour que, cette nuit, je puisse voir Estelle 
+chez elle, bel astre qui dans mon âme allume mille feux.</p></sp> 
+
+<stage>(Don Arias sort.) </stage>
+
+<stage>SCÈNE III </stage>
+
+<stage>DON GONZALO D'ULLOA en habit de deuil, LE ROI.</stage> 
+
+<sp who="#GON"><speaker>DON GONZALO</speaker> <p>Je baise les pieds de Votre Altesse.</p></sp>
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Levez-vous, je vous prie. Quoi ! si triste en ce 
+jour d'allégresse.</p></sp> 
+
+<sp who="#GON"><speaker>DON GONZALO</speaker> <p>Mon père n'est plus.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>J'ai perdu un vaillant soldat.</p></sp> 
+<sp who="#GON"><speaker>DON GONZALO</speaker> <p>Et vos frontières n'ont plus qui les défende.</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>En effet, il n'y a plus là un cœur héroïque. 
+Mon âme attendrie vous écoute.</p></sp> 
+
+<sp who="#GON"><speaker>DON GONZALO</speaker> <p>Sire, grande est la perte qu'a faite la 
+frontière d'Archidona; et puisque la valeur de mon père 
+n'eut point d'égale, faites que moi, l'héritier de ses vertus, 
+je ne sois pas dépouillé de son office devenu vacant.</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Je vois la preuve que vous n'avez pas dégé- 
+néré. Pleurez la mort d'un si digne père, et, le temps qui 
+appartient au deuil et 'à la douleur, veuillez le passer à ma 
+cour.</p></sp> 
+
+<sp who="#GON"><speaker>DON GONZALO</speaker> <p>Fernand Perez de Medina apporte les 
+mômes prétentions, et il compte devoir à ses services le 
+bâton de commandement. Il est vrai qu'il a été dix ans 
+premier lieutenant, et plus d'une fois son épée a teint de 
+rubis les couleurs nacrées de Grenade. Aussi espère-t-il 
+l'emporter sur moi. </p></sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>J'y songerai. Il convient de se consulter 
+avant de prendre un parti là-dessus.</p></sp> 
+
+<stage>(Entre Fernand Perez de Medina.)</stage> 
+
+<sp who="#FER"><speaker>FERNAND PEREZ</speaker> <p>Je crains, grand roi, d'arriver trop 
+tard aux pieds de Votre Majesté. Je demande à les baiser, 
+et ensuite... </p></sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Fernand Perez, vous pouvez en tout repos 
+me baiser les pieds. La charge est encore en mes mains, 
+et de telles fonctions ne s'accordent pas sans entendre, 
+d'abord votre personne, et ensuite les dignitaires de mon 
+royaume; par leurs conseils seront choisis les ministres de 
+mes ordres à Archidona. Allez vous reposer.</p> </sp>
+
+<sp who="#GON"><speaker>DON GONZALO</speaker> <p>Seigneur, je laisse en vos mains ce mémoire.</p></sp> 
+
+<sp who="#FER"><speaker>FERNAND PEREZ</speaker> <p>Et moi, seigneur , celui-ci, c'est le 
+miroir de cristal de ma valeur, où se reproduira ma face, 
+nette, parfaite et loyale.</p></sp>
+
+<sp who="#GON"><speaker>DON GONZALO</speaker><p>Mon mémoire est aussi le miroir qui fera 
+paraître la bonté de ma cause.</p> </sp>
+
+<stage>(Sortent don Gonzalo et Fernand.)</stage> 
+
+<stage>SCÈNE IV </stage>
+<stage>DON ARIAS, BUSTO TABERA, LE ROI.</stage> 
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Je vous annonce, grand roi, Busto Tabera.</p></sp> 
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Je me mets, non sans trouble, aux pieds de 
+Votre Majesté, car il est naturel que la présence du roi 
+donne quelque émotion à son vassal; mais à ce premier et 
+légitime motif il s'en joint pour moi un second qui est 
+l'honneur inespéré que je reçois de Votre Majesté.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Levez-vous.</p> </sp>
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Souffrez que je demeure. Si nous devons au 
+roi les hommages qui sont rendus aux sacrés autels, à vos 
+pieds, sire, je suis à ma place.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Vous êtes un vaillant chevalier.</p> </sp>
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>L'Espagne, sire, en a vu quelques preuves; 
+j'espère ajouter a mes titres dans la limite de mes fonctions.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker><p>J'y puis peut-être quelque chose.</p></sp> 
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Les lois divines et humaines font les rois toutpuissants, mais ces lois défendent à leurs sujets de se 
+montrer indiscrets à l'égard du souverain. Leurs vœux 
+doivent être modestes; et moi, seigneur, qui vois si souvent 
+transgresser cette loi, je demande à m'y renfermer.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Quel est l'homme qui ne désire toujours monter?</p></sp> 
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Si j'étais davantage, je me serais couvert devant Votre Majesté; mais je m'appelle Tabera : Tabera n'a 
+pas le droit de se couvrir.</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <stage>à part, à Don Arias</stage> <p>Singulière philosophie 
+de l'honneur!</p></sp> 
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <stage>au roi</stage> <p>Quel caprice bizarre !</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Je ne voudrais pour rien au monde, Tabera, 
+que vous eussiez le droit de vous couvrir avant de vous 
+avoir élevé en dignité, vous donnant ainsi une preuve de 
+mon affection. Vous allez donc cesser d'être Tabera pour 
+devenir général d'Archidona. Votre vaillante personne 
+sera chargée de l'exécution de mes ordres sur cette frontière.</p></sp> 
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Moi, sire? Mais, quels services de guerre ai-je 
+rendus?</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Je vous sais, don Busto, capable de défendre 
+ma terre en temps- de paix, et à ce titre je vous choisis de 
+préférence à deux hommes qui, en ce moment, exposent 
+leurs services dans les mémoires que voici! Lisez, et décidez entre les trois prétendants, c'est-à-dire entre vous et 
+les auteurs de ces mémoires.</p></sp> 
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <stage>après avoir lu le mémoire de don Gonzalo d'Ulloa</stage> <p>Si don Gonzalo a hérité de la valeur de son père, 
+je le nomme à sa place.</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Lisez l'autre maintenant.</p> </sp>
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <stage>lisant.</stage> 
+<p>« Sire, Fernand Pérez de Medina a 
+« servi pendant vingt ans votre père en qualité de soldat, 
+« et il demande à vous servir de son bras et de son épée, 
+« soit à l'étranger, soit dans vos royaumes héréditaires, 
+a II a exercé dix ans les fonctions d'adalid dans la plaine 
+« de Grenade, où il a fait trois ans de captivité; à raison 
+« de ces titres, et en considération de son épée, le meilleur 
+« de son droit, il vous demande par ce placet le bà- 
+« ton de général du territoire d'Archidona. »</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Vos raisons maintenant.</p> </sp>
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Je n'ai ici aucun genre de services à alléguer 
+qui autorise soit une faveur, soit une demande. Je pourrais rappeler les titres de gloire de mes aïeux, tant de 
+places forcées, tant d'étendards conquis. Mais, sire, mes 
+aïeux ont reçu leur récompense; s'ils ont rendu des services, ce n'est pas moi qui dois en recueillir le fruit. La 
+justice, pour mériter ce nom, veut être bien réglée : c'est 
+une grâce divine que Dieu tient suspendue à un cheveu. 
+La justice demande que cette charge appartienne à l'un de 
+ces deux prétendants. Me l'accorder à moi, sire, serait 
+commettre une injustice. Qu'ai-je fait pour le roi, ici, à 
+Séville? J'ai été simple soldat en temps de guerre, en 
+temps de paix, regidor. Faut-il dire la vérité ? Fernand 
+Pérez de Medina mérite l'emploi en question. Par son âge, 
+il est à sa place sur la frontière. Don Gonzalo est jeune, 
+vaillant, né à Cordoue : il peut être nommé adalid.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Qu'il soit fait à votre volonté.</p> </sp>
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>D'accord avec la raison et la justice, je ne 
+demande qu'une chose : donner aux serviteurs de l'État la 
+récompense de leurs services.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Assez; car j'éprouve quelque confusion à 
+ouïr ces conseils excellents.</p> </sp>
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Je vous présente le miroir de la vérité. Regardez dedans.</p></sp> 
+
+<sp who="REY"><speaker>LE ROI</speaker> <p>Vous êtes un noble chevalier. Je veux vous 
+avoir près de moi. Désormais, vous serez de ma chambre, 
+et habiterez le palais. — Ètes-vous marié?</p></sp> 
+
+<sp><speaker>BUSTO</speaker> <p>Sire, je vis auprès de ma sœur. J'ai voulu lui 
+donner un époux avant de me marier moi-même.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Je me chargerai de ce soin. Elle s'appelle.....</p> </sp>
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Doña Estrella.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Elle est belle, j'en suis sûr, et je ne saurais 
+offrir à une étoile d'autre époux que le soleil.</p> </sp>
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Pour mon Estelle, seigneur, je ne demande 
+qu'un homme; car ce n'est pas une étoile du ciel.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Je veux la marier à un homme qui soit digne 
+d'elle.</p></sp> 
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Que je vous baise les pieds !</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Elle aura un mari digne de sa compagne. 
+Informez votre sœur que cet hymen aura lieu sous mes 
+auspices, et que je prétends la doter.</p></sp> 
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Je voudrais maintenant savoir dans quel but 
+Votre Altesse m'a fait appeler : je n'étais pas sans inquiétude.</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>C'est juste; je vous ai mandé, Tabera, pour 
+une affaire qui concerne Séville, et j'ai voulu vous entretenir avant de vous en parler. Mais, la paix nous laisse des 
+loisirs : nous en reparlerons. A partir d'aujourd'hui, vous 
+êtes gentilhomme de ma chambre, et officier du palais. Allez avec Dieu.</p></sp> 
+
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Que fembrasse vos pieds !</p></sp> 
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Non, voici mes deux bras, regidor.</p> </sp>
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Tant de faveur me confond. <stage>(A part.)</stage> Je ne m'y fie point. M'embrasser, prétendre m'élever en dignité sans me connaître... Tout cela, mon honneur, me semble 
+moins faveur que corruption.</p> </sp>
+
+<stage>(I1 sort.) </stage>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Le personnage a de la tête : il est aussi sensé 
+que délicat.</p></sp> 
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Ces prétendus délicats me font pitié. 
+Combien en avons-nous vus qui n'attendaient que l'occasion. Loin de l'occasion, tous parlent de cette manière; 
+mais leur langage change suivant les rencontres. Tel fait 
+parler de lui aujourd'hui, qui hier médisait d'un autre. 
+L'occasion L'a plié sous la même loi ! Tabera met son 
+honneur dans un plateau; de l'autre vous n'avez qu'à 
+placer vos grâces, vos faveurs, votre intimité, vos caresses.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Je verrai sous un déguisement cette femme 
+chez elle. — Allons ! et dise la Castille ce qu'elle voudra, 
+roi aveuglé, je m'abandonne à suivre l'Étoile de Séville.</p></sp> 
+
+<stage>(Ils sortent.)</stage> 
+
+<stage>SCÈNE V </stage>
+<stage>Salon dans la maison de Busto Tabera. 
+DON SANCHE, ESTELLE, MATHILDE, CLARINDO.</stage> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Ange de ma vie, quand serai-je ton 
+époux? Quand verrai-je la fin de nos communes tristesses? 
+O soleil de mon âme, quand de douces paroles sorties de 
+ces lèvres de corail, ouvrage de l'amour, changeront-elles 
+en perles pour enchâsser nos âmes la blanche rosée qui 
+coule de mes yeux ?</p></sp> 
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Si le temps marchait au gré de mes désirs, 
+il devancerait du soleil les pas gigantesques. Séville célébrerait mes doux emplois, et ton amante fortunée cesserait 
+de porter envie à la douce et tendre tourterelle, qui fait son nid dans le creux d'un arbre avec de doux roucoulements.</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Ah ! comme ma vie te remercie de ces 
+souhaits ! — Mon âme ambitionne les plus hauts trophées 
+de la renommée pour les déposer à tes pieds.</p> </sp>
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Et moi j'y joins ma vie à jamais unie à la 
+tienne.</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Ah ! touchante Estelle, brillante de feux, 
+revêtue de lumière!</p> </sp>
+            
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Ah ! mon tendre ennemi !</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Oh ! ma conquête ! O personne sacrée ! 
+pôle de mes yeux troublés et ravis !</p> </sp>
+
+<sp who="#CAU"><speaker>CLARINDO</speaker> <stage>(A Mathilde.)</stage> <p>Pourquoi , à l'instar de nos 
+maîtres, ne pas émettre de tendres interjections, non moins 
+fines et délicates que toile de Cambrai ou de Hollande ?</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Veux-tu bien te taire ?</p></sp> 
+
+<sp who="#CLA"><speaker>CLARINDO</speaker> <p>Je suis muet. <stage>(Bas à Mathilde.)</stage> Ah ! petite 
+mulette gentille, désespoir de moi, ton amant !</p></sp> 
+
+<sp who="#MAT"><speaker>MATHILDE</speaker> <p>Ah! gentil laquais, qui fais des vers avec 
+accompagnement de l'étrille.</p> </sp>
+
+<sp who="#CLA"><speaker>CLARINDO</speaker> <p>Ah ! ma joie !</p></sp> 
+
+<sp who="#MAT"><speaker>MATHILDE</speaker> <p>Ah ! mortel heureux !</p> </sp>
+
+<sp who="#CLA"><speaker>CLARINDO</speaker> <p>Jamais lépreux ne fit tant de ah !</p></sp> 
+ 
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Enfin, que dit ton frère?</p></sp> 
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Qu'une fois les actes passés rien ne s'opposera au mariage; mais il demande quelques jours de délai 
+pour prendre ses mesures.</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Il veut que mon amour ait un dénoûment funeste, s'il le met aux prises avec le temps. Je voudrais que le mariage eût lieu aujourd'hui. Chaque jour 
+peut apporter mille contrariétés.</p> </sp>
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Si le délai se prolonge, parle à mon frère.</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Je lui parlerai; je meurs de ces délais 
+qu'il impose à mon amour.</p> </sp>
+
+<sp who="#CLA"><speaker>CLARINDO</speaker> <p>J'aperçois Busto Tabera.</p></sp> 
+
+<stage>(Entre Busto.) </stage>
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Sanche... mon ami!...</p> </sp>
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Dieux ! Que signifie ?...</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Cet air chagrin Vous?</p></sp> 
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>A un mélange de joie et de tristesse je dois 
+cet aspect soucieux. Rentre un moment, Estelle.</p> </sp>
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Dieu me soit en aide 1 Je meurs pour avoir 
+attendu.</p> </sp>
+
+<stage>(Elle sort avec Mathilde.) </stage>
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Sancho Ortiz de las Roelas !...</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Je ne suis plus votre beau-frère ?...</p> </sp>
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Un cheval emporté me fait courir sans éperons. — Sachez que le roi m'a fait appeler, sans que je 
+susse, vrai Dieu, pourquoi. Pressé de questions, il ne s'est 
+pas expliqué. Il voulait me donner le commandement 
+d'Archidona, que je ne demandais point. Voyant ma 
+résistance, il m'a retiré le royal insigne, et a fini par me 
+nommer</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Poursuivez; il n'y a lieu en tout cela 
+qu'à se réjouir; mais, la tristesse, venons aux motifs de 
+tristesse.</p> </sp>
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Il m'a nommé gentilhomme de sa chambre.</p></sp> 
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>C'est encore du bon.</p> </sp>
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>J'arrive au mauvais.</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <stage>(A part.)</stage> <p>Je sens qu'il va m'en coûter quelque chose.</p></sp> 
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Il m'a prié de ne pas marier Estelle; que ce 
+soin le regardait; qu'il se chargeait de la doter, à mon 
+défaut, et voulait lui donner un époux de son choix.</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Tu disais tout à l'heure que tu étais 
+heureux et triste; moi seul je suis malheureux, puisque tu obtiens les grâces, et que je ne recueille que les 
+chagrins. Que parles-tu d'ennuis, quand tu ne dois songer 
+qu'au bonheur? Gentilhomme du roi et voir sa sœur bien 
+mariée... On serait heureux à moins. Mais tu as été infidèle à la loi de l'amitié, qui t'ordonnait de dire que ta 
+sœur était déjà promise.</p></sp> 
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Tout cela était si étrange, ma tête si troublée, 
+que je n'ai pas songé à le dire.</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Ainsi, il n'est plus question de mon 
+mariage.</p></sp> 
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Je cours informer le roi que l'accord est fait, le contrat passé; ton mariage tiendra, car le roi ne peut 
+donner l'exemple de la violation de la justice.</p></sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Si le roi prétend y manquer, qui pourra 
+le retenir, surtout s'il y trouve son intérêt ou son plaisir ?</p></sp> 
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Je lui parlerai, et vous ensuite, puisque dans 
+mon trouble je ne l'ai pas informé de nos conventions.</p> </sp>
+
+            <sp who="#SAN"><speaker>DON SANCHE</speaker><p>Je voudrais être mort. Ah! que j'avais 
+raison de dire qu'il n'est pas dans la vie un moment de sécurité ! que les chagrins, la tristesse, obscurcissent toutes 
+nos joies. Si le roi veut faire violence à la loi... </p></sp>
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Sancho Ortiz, le roi est le roi : se taire et prendre patience.</p></sp> 
+
+<stage>(Il sort.)</stage> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>En si triste occurrence, comment se résigner à souffrir et se taire? Tyran, qui es venu troubler les 
+douceurs de mon hymen, puisses-tu ne pas jouir du trône 
+de Gastille avec les applaudissements de Séville. De don 
+Sanche le brave lu mérites bien le nom; je te reconnais à 
+l'œuvre, car c'est ta dureté qui t'a fait nommer ainsi. Mais, 
+Dieu est grand; quittons Séville, allons à Gibraltar pour y 
+laisser la vie dans les périls du siège.</p> </sp>
+
+<sp who="#CLA"><speaker>CLARINDO</speaker> <p>Sans y aller, tenons-la pour perdue.</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Estelle, si belle ! Comment, aimé de toi, 
+puis-je avoir une si mauvaise étoile? Ah ! qu'elle est rigoureuse, que les effets en sont cruels !</p> </sp>
+
+<sp who="#CLA"><speaker>CLARINDO</speaker> <p>Pour cet astre si beau, nous finissons 
+comme des œufs au beurre noir : mieux vaudrait en omelette.</p> </sp>
+
+<stage>SCÈNE VI</stage>
+
+<stage>Une rue de Séville, avec la maison de Busto Tabera.</stage> 
+<stage>LE ROI, DON ARIAS, gens de la suite. </stage>
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Dites que j'attends.</p></sp> 
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Sire, on le sait, et Busto Tabera descend 
+à la porte pour vous recevoir.</p> </sp>
+
+<stage>(Entre Busto.) </stage>
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Quelle faveur! Quelle grâce ! Chez moi Votre 
+Majesté!</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Je me promène ainsi embossé pour avoir le 
+plaisir d'examiner Séville. On m'a dit en passant que 
+c'était là votre maison. J'ai eu fantaisie de la voir. On la 
+dit extrêmement belle.</p> </sp>
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>C'est la maison d'un simple écuyer.</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Voyons.</p> </sp>
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Ma maison, conforme à mon rang, est trop 
+petite pour le vôtre; un si grand personnage y serait à 
+l'étroit, et il y aura du scandale dans Séville, quand on 
+saura que vous êtes venu me voir.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Ce n'est pas pour votre maison, c'est pour 
+vous, Busto, queje viens.</p></sp> 
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Je sens le prix d'une telle faveur, grand 
+prince ; mais, s'il est vrai que vous veniez ici pour moi, 
+mon devoir est de ne pas le souffrir. Si le roi vient visiter 
+son vassal, il y aurait peu de courtoisie à ce dernier de le 
+permettre. Je suis votre serviteur et sujet, et vous prétendez 
+m'honorer : il est plus naturel que j'aille vous voir en votre 
+Alcázar. D'ailleurs, les faveurs deviennent aisément un 
+affront, surtout si le soupçon vient s'y mêler.</p> </sp>
+            
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Le soupçon ? Eh! de quoi ?</p> </sp>
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>On dira, bien que le contraire soit vrai, que 
+vous êtes venu pour voir ma sœur, ce qui peut devenir une 
+offense à sa réputation. L'honneur est un pur cristal : un 
+souffle suffit à le ternir.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Puisque me voilà, je voudrais vous entretenir 
+d'une affaire. Entrons.</p></sp> 
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Vous m'en parlerez, s'il vous plaît, en chemin : mon appartement est en désordre.</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <stage>à part à don Arias</stage> <p>Il n'est pas facile.</p></sp> 
+
+<sp who="#BUS"><speaker>DON ARIAS</speaker><stage>de même</stage> <p>N'importe! emmenez-le. Je vais 
+rester avec Estelle, et je lui parlerai en votre nom.</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Parle bas; il pourrait t'entendre ; et le pauvre 
+sot met tout son honneur dans ses oreilles.</p></sp> 
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>L'or les fera céder.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <stage>haut</stage> <p>C'est bien; je ne voudrais pas visiter 
+voire demeure malgré vous.</p></sp> 
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Au mariage de doña Estrella Votre Majesté 
+la verra dans la tenue qu'elle doit avoir.</p> </sp>
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Holà! les voitures.</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Busto, vous prendrez une portière.</p></sp> 
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>J'irai à pied, avec votre permission.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>La voiture est à moi, et j'en dispose.</p></sp> 
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Le carrosse attend.</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>A l'Alcazar.</p></sp> 
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <stage>à part</stage><p>Voilà bien des grâces. Le roi me 
+comble de ses faveurs, plaise à Dieu que ce soit pour mon bien.</p></sp> 
+
+<stage>SCÈNE VII</stage>
+
+<stage>Salon dans la maison de Busto.</stage> 
+
+<stage>ESTELLE, MATHILDE.</stage> 
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Que dis-tu là, Mathilde?</p> </sp>
+<sp who="#MAT"><speaker>MATHILDE</speaker> <p>C'était le roi, Madame.</p> </sp>
+
+<stage>(Entre don Arias.) </stage>
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker><p> Oui, c'était lui ; est-il étonnant que les Rois 
+se laissent guider par une étoile? Il venait en ces lieux qui 
+recèlent tant de charmes; car, s'il est roi de Castille, vous 
+êtes reine de la beauté. Le roi don Sonche que sa bravoure 
+invincible a fait surnommer le Brave, aperçut cette beauté 
+divine à un balcon, rival des palais de l'Aurore, lorsque, 
+parmi les roses et les lis, le chant matinal des oiseaux 
+l'éveille encore endormie, et que, pleurant son repos, elle 
+verse des grappes de perles. Il m'a ordonne de t' offrir les 
+richesses de la Castille, bien que, pour tant de grâces, ce 
+soit peu que ces richesses. Sois favorable à ses vœux. Si tu 
+les écoutes, si tu les couronnes, tu seras le soleil de Séville, 
+toi qui en as été jusqu'ici l'Étoile. Il te donnera villes et 
+châteaux qui grandiron t ta famille; il te donnera pour époux 
+un de ses riches hommes, dont l'alliance couronnera la 
+gloire de tes aïeux, et ajoutera un lustre nouveau au bla- 
+son des Tabera. — Que réponds-tu?</p> </sp>
+
+<sp who="#EST"><speaker>ESTELLE</speaker><p>Ce que je réponds? Regarde. <stage>(Elle lui 
+tourne le dos).</stage> A ton impudent message, je n'ai de réponse 
+que le mépris.</p></sp> 
+
+<stage>(Elle sort.)</stage> 
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Généreux couple, ma foi! La sœur vaut 
+le frère, et mon admiration dure encore... La grandeur 
+romaine revit en eux dans Séville. Il semble impossible 
+que le roi puisse en venir à bout; mais, pouvoir et persévérance brisent les rochers, tranchent les montagnes. Si je 
+parlais à cette suivante?... Les présents sont la porte qui 
+mène à la conquête des Lucrèces et des Porcies.</p> </sp>
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <stage>à Mathilde</stage> <p>Tu appartiens à cette maison.</p></sp> 
+
+<sp who="#MAT"><speaker>MATHILDE</speaker> <p>J'y appartiens, mais par force.</p> </sp>
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Gomment, par force ?</p></sp> 
+
+<sp who="#MAT"><speaker>MATHILDE</speaker><p>Je suis esclave.</p></sp> 
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Esclave ?</p> </sp>
+
+<sp who="#MAT"><speaker>MATHILDE</speaker> <p>Et exposée à la mort, à la prison perpétuelle, si je n'obtiens ma liberté.</p> </sp>
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Je ferai que le roi te délivre, qu'il t'accorde 
+mille ducats de rente et la liberté, si tu veux t'employer 
+pour lui.</p></sp> 
+
+<sp who="#MAT"><speaker>MATHILDE</speaker> <p>Au prix de l'or et de la liberté, il n'est pas 
+de méfait que je ne puisse entreprendre. Que faut-il faire ? 
+Parle : je m'y emploierai de mon mieux.</p></sp> 
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Il s'agit de fournir au roi le moyen de pé- 
+nétrer cette nuit dans la maison.</p></sp> 
+
+<sp who="#MAT"><speaker>MATHILDE</speaker> <p>Toutes les portes en seront ouvertes, à 
+condition que tu remplisses ta promesse.</p></sp> 
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Un rescrit du roi, signé de sa main, té sera 
+remis avant son entrée.</p></sp> 
+
+<sp who="#MAT"><speaker>MATHILDE</speaker><p>Alors, je suis prête à le mettre dans le lit 
+d'Estelle cette nuit.</p></sp> 
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>A quelle heure se couche Tabera?</p></sp> 
+
+
+<sp who="#MAT"><stage>mathilde</stage> <p>Il rentre à l'aube, et court d'ordinaire toute 
+la nuit. Ce genre de vie se paye quelquefois cher.</p> </sp>
+
+<sp who="#ARI"><stage>don arias</stage> <p>A quelle heure penses-tu que doive se 
+présenter le roi ?</p> </sp>
+
+<sp who="#MAT"><stage>mathilde</stage> <p>Qu'il vienne à onze heures : Estelle sera 
+déjà couchée.</p> </sp>
+
+<sp who="#ARI"><stage>don arias</stage> <p>Prends cette émeraude comme gage des 
+faveurs qui t'attendent.</p> </sp>
+
+<stage>SCÈNE VIII</stage> 
+
+<stage>Salon de l'Alcázar.</stage> 
+
+<stage>DON INIGO OSORIO, BUSTO, DON MANUEL, ce dernier portant 
+des clefs dorées.</stage> 
+
+<sp who="#MAN"><speaker>don manuel</speaker> <stage>à Busto</stage> <p>Que Votre Seigneurie reçoive 
+cette clef qui lui ouvre la chambre, et qu'elle prenne possession de sa nouvelle dignité.</p></sp> 
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Je voudrais pouvoir payer à Sa Majesté la fa- 
+veur dont elle m'honore sans l'avoir méritée.</p> </sp>
+
+<sp who="#INI"><speaker>DON INIGO</speaker> <p>Vous méritez davantage; et, soyez-en sûr, 
+le roi sait ce qu'il fait.</p> </sp>
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>La clef qu'il me donne m'ouvre la porte de son 
+ciel : mais la terre menace mon élévation. Ces faveurs 
+inespérées sont trop soudaines : je redoute quelque changement dans leur auteur.</p></sp> 
+
+<stage>(Entre don Arias.) </stage>
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Vous pouvez vous retirer, Messieurs. Le 
+roi veut écrire.</p></sp> 
+
+<sp who="#MAN"><speaker>don manuel</speaker> <p>Voyons alors comment nous pourrions 
+nous divertir cette nuit.</p></sp> 
+
+<stage>(Ils sortent tous trois.) </stage>
+
+<stage>(Entre le roi.) </stage>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Tu dis que cette nuit je jouirai de ses beaux 
+yeux, don Arias?</p> </sp>
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>La petite esclave est à vos ordres.</p> </sp>
+<sp who="#REY"><speaker>LE ROI</speaker> <p>La Castille lui doit une statue.</p> </sp>
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Il faut rédiger le rescrit.</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Donnes-y ordre, don Arias. Je n'hésiterai pas 
+à le signer, poussé que je suis par mon amour.</p> </sp>
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Foi de gentilhomme ! la petite esclave est 
+bien complaisante.</p> </sp>
+
+<sp who="#RET"><speaker>LE ROI</speaker> <p>Elle me donne le soleil du firmament, en la 
+personne de l'Etoile de Séville.</p> </sp>
+
+<stage>FIN DE LA PREMIÈRE JOURNÉE </stage>
+          
+            </div>
+            <div type="jornada" n="2">
+                <stage>DEUXIÈME JOURNÉE </stage>
+
+
+
+<stage>SCÈNE I </stage>
+
+<stage>Une rue de Séville. </stage>
+
+<stage>LE ROI, DON ARIAS, MATHILDE, à la porte de la maison 
+de don Busto. </stage>
+
+<sp who="#MAT"><speaker>MATHILDE</speaker> <p>Mieux vaut qu'il soit seul. Tout repose 
+dans la maison.</p> </sp>
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Et Estelle?</p> </sp>
+
+<sp who="#MAT"><speaker>MATHILDE</speaker> <p>Elle dort, et la chambre où elle repose est 
+sans lumière.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <stage>à Mathilde</stage> <p>Bien qu'il suffit de ma parole, 
+voici néanmoins le papier qui contient ta liberté. Je donneiai à Busto une autre esclave.</p> </sp>
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Ce papier te confirme la rente et les ducats.</p> </sp>
+
+<sp who="MAT"><speaker>MATHILDE</speaker> <p>Que j'embrasse vos pieds!</p> </sp>
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker>  <stage>bas au roi</stage> <p>Voilà ce que peut l'intérêt. 
+Elles sont toutes les mêmes.</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>La belle chose que d'être roi!</p> </sp>
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Pas de résistance possible.</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Donc, je vais monter seul, pour plus de sûreté.</p></sp> 
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Vous aventurer seul en ce moment?</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Dis-moi un peu quel risque je cours : Ne 
+vais-je pas avec moi-même? Laisse-moi.</p> </sp>
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Où irai-je attendre?</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker><p> A quelque distance de la rue, de maniere à 
+nous retrouver aisément.</p> </sp>
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>J'entrerai à Saint-Marc.</p></sp> 
+
+<stage>(Il sort.) </stage>
+<sp who="#REY"><speaker>LE ROI</speaker> <stage>à Mathilde</stage> <p>A quelle heure rentrera Busto?</p></sp> 
+
+<sp who="#MAT"><speaker>MATHILDE</speaker> <p>Il rentre au moment où le ramage des 
+oiseaux salue l'aube. La porte demeure ouverte jusqu'à sa 
+rentrée.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>L'amour m'anime à tenter l'entreprise.</p> </sp>
+<sp who="#MAT"><speaker>MATHILDE</speaker><p>Que Votre Majesté me suive, le corridor 
+est obscur.</p></sp> 
+
+<stage>(Ils sortent.) </stage>
+
+<stage>(Entrent don Manuel, Busto, don Iñigo ) </stage>
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Voici ma maison.</p></sp> 
+<sp who="#INI"><speaker>DON INIGO</speaker> <p>Adieu.</p></sp> 
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>C'est encore de bonne heure pour moi.</p> </sp>
+
+<sp who="#MAN"><speaker>don manuel</speaker> <p>N'allez pas plus loin. Nous avons tous 
+deux certaine visite à faire.</p> </sp>
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>A merveille. Comment trouvez-vous Féliciana?</p> </sp>
+
+<sp who="#MAN"><speaker>don manuel</speaker> <p>Nous en parlerons demain au palais, 
+la personne en vaut la peine.</p></sp> 
+
+<stage>(Sortent don Manuel et don Iñigo.)</stage> 
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Je vais me coucher de bonne heure. <stage>(Levant 
+les yeux sur le portail de sa maison)</stage>. De la lumière nulle 
+part?... Viendra-t-il un page? Holà! Lujan, Osorio, Juanico, Andres ! . . . — Tous endormis, — Justa ! Inès ! . . . Endormies pareillement. — Mathilde!... L'esclave elle-même 
+dort. Le sommeil est un dieu; il règne en maître sur nos 
+sens.</p> </sp>
+
+<stage>(Il entre.)</stage> 
+
+<stage>SCÈNE II</stage> 
+
+<stage>Salle dans la maison de Busto. </stage>
+<stage>LE ROI, MATHILDE et puis BUSTO. </stage>
+
+<sp who="#MAT"><speaker>MATHILDE</speaker> <p>C'est lui, je crois, c'est mon maître qui 
+appelle. Je suis perdue!</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Tu disais qu'il ne rentrait qu'au point du 
+jour.</p></sp> 
+
+<sp who="#MAT"><speaker>MATHILDE</speaker><p> Mon malheur le veut ainsi.</p> </sp>
+
+<stage>(Entre Busto. — Le roi s'embosse dans son manteau.) </stage>
+
+<sp who="#BUS"><speaker>BUSTO</speaker><p> Mathilde?...</p> </sp>
+
+<sp who="#MAT"><speaker>MATHILDE</speaker><p>E Ah! ciel ! Je m'enfuis.</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <stage>à voix basse</stage> <p>Ne crains rien.</p> </sp>
+
+<stage>(Mathilde s'enfuit.) </stage>
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Qui va là?</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker><p> Un homme.</p> </sp>
+            
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Un homme à cette heure, chez moi! Son nom!</p> </sp>
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Arrière!</p> </sp>
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Vous n'êtes guère poli. — Si cet homme veut 
+passer, il passera par la pointe de cette épée. Encore que 
+cette maison soit sainte, je prétends la profaner.</p> </sp>
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Éloignez votre épée.</p> </sp>
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Mon épée! l'écarter... quand l'appartement 
+de ma sœur est insulté de la sorte! Dites votre nom, ou 
+vous êtes mort.</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Je suis un personnage de conséquence. Laissez-moi.</p></sp> 
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Je suis chez moi. C'est à moi de commander ici.</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Laissez-moi passer, vous dis-je? Je suis gentilhomme. Je me suis introduit chez vous, il est vrai; mais, 
+loin de vouloir porter atteinte à votre honneur, je prétends 
+l'accroître.</p></sp> 
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>La façon en est singulière.</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Cela me regarde.</p></sp> 
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Non, plutôt avec cette épée. Vous parlez d'honneur, pourquoi alors ce manteau relevé jusqu'aux yeux? 
+C'est pour mon honneur que vous vous cachez? Pour mon 
+honneur que vous dissimulez votre visage? Votre .embarras trahit la vérité. Qui veut honorer quelqu'un ne médite 
+pas contre lui un affront. — L'épée à la main, vive Dieu! 
+ou je vous tue!</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <stage>ci part</stage> <p>Le niais! me pousser à bout!</p> </sp>
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Je vous tue ici môme! ou vous me tuerez.</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Arrêtez... Je suis le roi.</p></sp> 
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Mensonge! Le roi, vouloir ma honte I Seul 
+ici, sans suite! Impossible. — Vous insultez, maraud, Sa 
+Majesté, en lui imputant une pensée qui serait le dernier 
+des opprobres. Le roi, porter l'outrage à son vassal! Ma 
+fureur augmente... Tu mourras. J'oublie mon affront devant celui que tu fais à la majesté royale. Ignores-tu le 
+châtiment qu'imposent les lois divines et humaines à quiconque imagine ou soupçonne des actions indignes d'un 
+roi?</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <stage>à part</stage> <p>Quelle étrange obstination! <stage>(Haut.) </stage>
+Je suis le roi, je le répète.</p></sp> 
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Je n'en crois rien! Ici le nom de roi est en 
+contradiction avec les actes. Le roi est la source de l'honneur, et c'est mon déshonneur que tu cherches.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <stage>à part</stage> <p>J'ai affaire à un maladroit sans cour- 
+toisie. A quoi me résoudre?</p></sp> 
+
+<sp who="#BUS"><speaker>BUSTO</speaker><stage> à part</stage> <p>L'homme au manteau est le roi, je n'en 
+puis douter. Je vais le laisser passer, et m'assurer vile s'il 
+m'a fait outrage. La colère, la fureur se disputent mon âme. 
+L'honneur serait donc comme une pension, une rente, 
+soumis aux caprices du pouvoir. <stage>(Haut)</stage>. Passez donc, qui 
+que vous soyez; et une autre fois respectez davantage le 
+roi ! Surtout, drôle, ne dites pas que vous êtes le roi, quand 
+vous aurez à rougir de vos actes. Toutefois, le vassal est 
+tenu de respecter la royauté, même dans le nom.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>C'en est trop! J'étouffe de honte et de colère. 
+— Imbécile! tu me laisses aller, dis-tu, parce que je me 
+donne pour le roi? Eh bien, apprends, puisque j'ai dit que 
+je l'étais, que je ne veux sortir que de cette manière. <stage>(Il 
+tire son épée.)</stage> Si j'obtiens ma liberté pour avoir pris le nom 
+du roi, si tu en respectes le nom, je veux justifier ce respect, et me montrer roi par mes œuvres. Meurs, traître! 
+Le titre de roi anime mon courage. C'est par lui que tu 
+vas périr!</p></sp> 
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Je ne reconnais d'autre souverain que mon 
+honneur.</p></sp> 
+
+<stage>(Ils se "battent. — Au bruit des épées, des valets accourent avec 
+des flambeaux, suivis de Mathilde.) </stage>
+
+<sp who="SIR"><speaker>LES VALETS</speaker> <p>Quel est ce bruit? 
+le roi. — Fuyons avant d'être reconnu. Le traître m'a 
+offensé, mais qu'il redoute ma vengeance. 
+un valet. — L'auteur de ton affront s'est enfui. 
+busto. — Gourez; châtiez-le! — Non, restez; il faut faire 
+un pont d'or à l'ennemi. Donnez un flambeau à Mathilde, 
+et vous, qu'on se retire.</p></sp> 
+
+<stage>(Les valets obéissent, après avoir remis le flambeau.) </stage>
+
+<stage>SCÈNE III </stage>
+<stage>BUSTO, MATHILDE.</stage> 
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <stage>à part</stage> <p>Voici celle qui me vend. Honteuse, elle 
+baisse la tête. Un bon mensonge va me faire connaître la 
+vérité. (Haut.) Mets le verrou à celte porte. — Le roi m'a 
+tout conté. Prépare-loi à mourir.</p></sp> 
+            
+<sp who="#MAT"><speaker>MATHILDE</speaker> <stage>à part</stage> <p>Si le roi n'a pas gardé le secret, 
+comment, dans ma malheureuse condition, le garderaisje? <stage>(Haut.)</stage> Maître, tout ce que t'a dit le roi est la vérité.</p></sp> 
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <stage>à part</stage><p>Je sais maintenant quel genre d'atteinte a souffert mon honneur. <stage>(Haut.)</stage> C'est donc toi qui 
+lui as ouvert.</p> </sp>
+
+<sp who="#MAT"><speaker>MATHILDE</speaker><p> Il m'a promis la liberté, et sur celte pro- 
+messe je l'ai introduit jusqu'en ces lieux.</p></sp> 
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Et Estelle? En sait-elle quelque chose?</p></sp> 
+
+<sp who="#MAT"><speaker>MATHILDE</speaker> <p>Elle m'aurait sûrement incendiée de ses 
+l'ayons, si elle avait seulement soupçonné cet accord.</p></sp> 
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Je le crois; car, si elle ternissait sa lumière, 
+elle ne serait plus Estelle.</p></sp> 
+
+<sp who="#MAT"><speaker>MATHILDE</speaker> <p>Son éclat ne saurait admettre ni ombre, ni 
+éclipse. Sa lumière est aussi brillante, aussi pure que celle 
+du soleil. — Le roi vint à l'appartement, et, à peine était-il 
+entré en me remettant ce papier, que tu arrivais toi-même.</p> </sp>
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Comment? Le roi t'a remis un papier?</p></sp> 
+
+<sp who="#MAT"><speaker>MATHILDE</speaker> <p>La promesse de mille ducats de rente et 
+la liberté.</p></sp> 
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <stage>à part</stage> <p>Grande faveur, payée au prix de mon 
+honneur. Plût à Dieu qu'elle pût mentir! <stage>(Haut.)</stage> Viens, suis-moi.</p></sp> 
+<sp who="#MAT"><speaker>MATHILDE</speaker> <p>Où me conduisez-vous?</p> </sp>
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Chez le roi : il faut qu'il te voie. C'est la loi, 
+et c'est mon devoir.</p></sp> 
+<sp who="#MAT"><speaker>MATHILDE</speaker> <p>Ah! malheureuse esclave!</p> </sp>
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Si le roi a prétendu la ternir, l'Espagne parlera longtemps de L'Etoile de Séville.</p> </sp>
+<stage>SCÈNE IV </stage>
+<stage>Une rue qui mène au palais. </stage>
+<stage>LE ROI, DON ARIAS. </stage>
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Tu as entendu la conclusion de l'aventure.</p></sp> 
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Vous avez voulu entrer seul.</p> </sp>
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Il a été à la fois si maladroit et si hardi, que 
+c'est moi, ami, qui ai reçu l'affront. Il m'a tenu au bout de 
+son épée avec des mots à double entente. Je me suis longtemps contenu; mais enfin les mouvements naturels au 
+cœur de l'homme m'ont fait perdre le sang-froid que je 
+devais à ma dignité. Je fonds sur lui. Mais des valets sont 
+arrivés avec des flambeaux, et tout allait se découvrir, si 
+je n'avais tourné le dos, craignant d'être reconnu. Je n'ai 
+pas été suivi. — Voilà, don Arias, la façon dont j'ai été 
+traité par Busto Tabera.</p></sp> 
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Qu'il paye de sa mort votre ennui. Il 
+vous faut sa tête. Que le soleil levant éclaire un châtiment 
+juste, puisque dans l'univers espagnol il n'est d'autre loi 
+que votre bon plaisir.</p> </sp>
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Un supplice public! Ce serait, don Arias, une 
+grande faute.</p></sp> 
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Un prétexte est aisé à trouver. Il est regidor de Séville; et, le plus sage, le plus prudent des hommes peut tomber en quelque délit, poussé par l'orgueil 
+ambitieux du pouvoir.</p> </sp>
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Il a tant de mesure, de retenue, qu'il ne saurait se compromettre.</p></sp> 
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Alors, sire, faites-le tuer en secret.</p></sp>
+<sp who="#REY"><speaker>LE ROI</speaker> <p>A la bonne heure! Mais, sur qui s'en reposer?</p> </sp>
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Sur moi.</p></sp> 
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Je ne veux pas te compromettre.</p> </sp>
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Eh bien, je veux vous donner un homme 
+aussi vaillant que noble soldat et insigne chevalier. Plus 
+d'une fois il a fait trembler le More sur l'orgueilleux rocher de Gibraltar, où il commandait, toujours invincible. 
+Nul ne passe pour plus brave, ni plus audacieux dans Séville. C'est le phénix de nos guerriers.</p> </sp>
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Son nom, quel est-il?</p> </sp>
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Sancho Orliz de las Roelas, Surnommé le 
+Cid d'Andalousie.</p></sp> 
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Le jour va naître. Fais-moi venir cet homme 
+sur-le-champ.</p></sp> 
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Venez vous coucher.</p></sp> 
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Quel repos, Arias, peut espérer quelqu'un 
+qui aime et qui a reçu un affront? Sans perdre un moment, fais-moi venir cet homme.</p></sp> 
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Sur l'Alcázar je vois quelque chose qui se 
+balance au vent.</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Quelque chose, dis-tu? Que peut être cela?</p> </sp>
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Il doit y avoir un motif.</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Regarde ce que c'est.</p> </sp>
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>C'est le corps de la petite esclave, avec le 
+papier dans ses mains.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Quelle barbarie!</p> </sp>
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Quelle pitié!</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Je tue le frère et la sœur, si Séville bouge.</p> </sp>
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Ordonnez vite d'enlever ce cadavre, et 
+faites-lui donner en secret une honorable sépulture. Manquer a ce point de respect! Tabera, tu mourras.</p> </sp>
+
+<stage>SCÈNE V</stage> 
+
+<stage>Une chambre dans la maison de Busto. </stage>
+
+<stage>BUSTO, ESTELLE. </stage>
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Qu'y a-t-il ?</p> </sp>
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Il faut te lever.</p> </sp>
+            
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>A peine le soleil endormi quitte les balcons 
+de l'Aurore, en semant sur ses pas les saphirs, et seul, 
+plein de trouble, affligé, tu m'obliges à quitter ma couche! 
+Dis, s'est-il passé quelque chose de mauvais où je sois 
+complice?</p></sp> 
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>C'est à toi de le dire.</p></sp> 
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>A moi? Que dis-tu? Es-tu fou? es-tu toimême? — Moi, un délit? mais, il me semble que c'est à 
+toi qu'il faut l'imputer : car, ta seule question est une offense. Neme connais-tu pas? Ignores-tu quelle je suis? 
+Vis-tu jamais dans ma bouche des paroles peu d'accord 
+avec l'honneur qui est ma règle? Et si tu n'as jamais rien 
+vu qui te puisse induire en soupçon, que me parles-tu 
+de délit?</p></sp> 
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Ce n'est pas sans motif que j'en parle.</p> </sp>
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Sans motif?</p> </sp>
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Ah! Estelle, ici, cette nuit...</p> </sp>
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Achève; si tu me trouves coupable, je m'offre 
+moi-même au châtiment. — Que s'est-il passé ici cette 
+nuit ?</p> </sp>
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Le cours des astres indiquait à peine le milieu 
+de la nuit, lorsque, rentrant chez moi, j'ai trouvé le roi 
+seul, embossé dans son manteau, non loin de ta propre 
+chambre.</p></sp> 
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Qu' as-tu dit?</p></sp> 
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>La vérité! — Demande-toi, ma sœur, ce qui 
+pouvait attirer dans ma maison le roi, seul, à pareille 
+heure, sinon Estelle... Mathilde était avec lui : elle s'enfuit au bruit de mes pas... Dès lors, mon honneur a compris. Je tire mon épée. — Qui va là? dis-je. Il me répond : 
+un homme. — Je fonds sur lui. Il m'évite, et me déclare, 
+Estelle, qu'il est le roi. Je l'avais déjà reconnu, et cette 
+découverte m'avait complètement bouleversé. Quel moment! Quel supplice! Lui, cependant, furieux de se sentir 
+offensé, m'attaque à son tour avec vigueur. Mes pages arrivent avec des flambeaux. Le roi se dérobe en tournant 
+le dos, et sort sans être reconnu. Je pressai l'esclave de 
+me dire la vérité, et elle me l'avoua sans qu'il fût besoin de 
+menaces. Elle tenait un papier signé du roi, qui lui accordait la liberté : première pièce du dossier qui doit mettre 
+en lumière son attentat. Je la chasse aussitôt, de peur que 
+son haleine ne répande des germes de déshonneur dans 
+cette noble maison; mais je la rejoins à la porte. Je la 
+saisis, et la chargeant sur mes épaules, je me dirige à 
+grands pas vers l' Alcázar, et en punition de son méfait, je 
+la pends à la grille des fenêtres. Je veux que le roi apprenne -qu'il existe des Brutus, capables de châtier les Tarquins. — Maintenant, tu sais tout. Notre honneur, Estelle, 
+est en péril. Contraint de fuir, je dois te donner un époux. 
+Sancho Ortiz sera le tien. Son courage te mettra à l'abri de 
+la colère du roi, et je puis partir en sécurité.</p></sp> 
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Ah Busto! que je baise ta main pour le service immense que tu m'as rendu.</p></sp> 
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Aujourd'hui même tu seras son épouse ; prépare tout pour cela. En attendant, discrétion et silence; 
+mon honneur le veut ainsi.</p> </sp>
+
+<stage>(Il sort.)</stage> 
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>O amour! ô bonheur! tu es à moi maintenant, tu ne peux m'échapper. Et, cependant, qui peut prédire 
+la fin du commencement, s'il est vrai qu'entre la 
+coupe et les lèvres un sage craignit le péril.</p></sp> 
+
+<stage>SCÈNE VI</stage> 
+
+<stage>Salon de l' Alcázar.</stage> 
+<stage>LE ROI, tenant à la main deux papiers, DON ARIAS.</stage> 
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Sancho Ortiz est dans l'antichambre, qui 
+attend les ordres de Votre Majesté.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <stage>à part</stage><p>Tout est embûches en amour. Néanmoins, je me sens ému de pitié. Sous ce pli cacheté j'indique le nom du traître, et demande sa mort. Je déclare, 
+dans cet autre, que c'est moi qui ai donné l'ordre de le 
+tuer. La responsabilité du meurtrier est ainsi à couvert. 
+<stage>(Haut.)</stage> Fais-le entrer, et demeure à la porte, après avoir 
+mis le verrou.</p></sp> 
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>A la porte?</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Oui; je veux qu'il croie que l'affaire n'est 
+connue que de moi. -Ma soif de vengeance me paraît ainsi 
+mieux assurée.</p> </sp>
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Je vais l'appeler.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <stage>à part</stage> <p>Amour, je crains de ne pas t'élever ici 
+un glorieux trophée.</p> </sp>
+
+<stage>(Entre don Sanche.)</stage> 
+
+            <sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Que Votre Majesté fasse à mes lèvres la 
+faveur de lui baiser les pieds.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Levez-vous; ce serait vous 'humilier. Levezvous.</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Mon seigneur... </p></sp>
+<sp who="#REY"><speaker>LE ROI</speaker> <stage>à part</stage> <p>Il a bon air.</p> </sp>
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Ne vous étonnez pas, sire, de mon 
+trouble. Dépourvu de rhétorique, et n'étant pas orateur...</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Expliquez-vous. Que remarquez-vous en 
+moi?</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>La Valeur unie à la majesté. Je vois en 
+vous une image de Dieu : le roi n'est-il pas son représentant sur la terre? Je crois en vous comme en Dieu même. 
+Mon redouté seigneur, je suis aux ordres de Votre Majesté.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Êtes-vous remis?</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Jamais je ne me vis si honoré que je le 
+suis aujourd'hui.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Je vous aime et vous suis attaché à raison de 
+votre mérite. Et comme vous devez avoir quelque souci de 
+savoir dans quel but je vous ai mandé, je vais vous le dire, 
+et m' assurer que j'ai en vous un bon serviteur. — Mon 
+intérêt commande le meurtre d'un homme, et veut que ce 
+meurtre soit secret. Je vous ai choisi pour cette mission.</p> </sp>
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Cet homme est-il coupable?</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Il est coupable.</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>S'il est coupable, pourquoi ce mystère ? 
+Vos juges peuvent ordonner son exécution en public. Le 
+faire tuer en secret, c'est vous accuser vous-même, c'est 
+donner à entendre que vous voulez la mort d'un innocent. 
+Si cet homme n'a commis qu'une faute légère, seigneur, 
+je vous demande sa grâce.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Sancho Ortiz, je vous ai mandé non pour 
+être son avocat, mais pour lui donner la mort. Quand 
+j'ordonne que cet homme meure d'Un coup assuré mais 
+secret, c'est que le secret importe à mon honneur. Croyez 
+vous qu'il mérite la mort, le criminel de lèse-majesté ? </p></sp>
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>La mort sur le bûcher.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Eh bien ! le crime de lèse-majesté est celui 
+de cet homme.</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Sire, c'est moi maintenant qui vous demande sa mort. S'il en est ainsi, fût-il mon propre frère, 
+j'obéirai ; je n'hésite plus.</p></sp> 
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Votre parole et votre main.</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <stage>donnant sa main</stage> <p>Et avec elle mon âme 
+et ma foi.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>On le rencontre à l'écart, et ori le dépèche.</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Sire, je suis soldat, je m'appelle Roelas. 
+A moi une trahison! à moi un guet-apens ! Non, corps 
+pour corps, sur la place, dans la rue, aux yeux de tout 
+Séville. Tuer un homme sans danger pour soi-même est 
+une tache qui ne se lave point, et la victime d'une trahison 
+gagne plus à mourir que le traître.</p> </sp>
+
+<sp who="#REY"><stage>le roi</stage> <p>Comme il vous plaira. Voici un papier qui 
+dégage expressément votre responsabilité. <stage>(Il lui remet le 
+papier.)</stage> Lisez.</p></sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <stage>lisant</stage> <p>« Sancho Ortiz, je vous charge, 
+pour moi et en mon nom , de donner la mort à l'homme 
+désigné dans ce papier. Je me porte fort pour vous, et si 
+vous êtes inquiété de quelque manière, je vous promets, 
+par ces présentes, de vous couvrir de ma protection : 
+MOI, le ROI. »</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Comment Votre Majesté paraît-elle si 
+peu me connaître? A moi, un papier, un engagement 
+écrit ? — Non. Ici ma loyauté se fie en vous plus qu'en 
+tous les papiers. Si l'effet de vos paroles est tel qu'il opère 
+sur les montagnes, s'il est aussi inévitable qu'assuré, en 
+me donnant votre parole, seigneur, vous rendez tout papier 
+inutile. Sans ce papier, l'homme désigné est plus sûr de 
+périr qu'avec lui. Votre parole perd à un engagement par 
+écrit. (Il le déchire.) Vous ne tarderez pas à être obéi. Je 
+ne vous demande pour réponse que d'obtenir la main de 
+la femme que j'aime.</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Fût-elle la plus grande dame de Castille, je 
+vous l'accorde.</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Puisse l'Arabe s'humilier devant Votre 
+Majesté ! Que la mer voie triompher sa royale et glorieuse 
+bannière ! </p></sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Sancho, vos vaillants exploits recevront leur 
+récompense. — Cet autre papier vous dira le nom de 
+l'homme qui doit périr. <stage>(Il lui remet le papier.)</stage> Ne soyez 
+pas étonné en l'ouvrant. J'ai ouï dire qu'il est un des vail- 
+lants de Séville.</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>C'est ce que nous allons voir.</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Ce secret, Sancho, demeure entre nous deux. 
+Je n'ai pas besoin d'en dire davantage. Vous m'entendez... 
+Diligence et mystère.</p> </sp>
+
+<stage>(Le roi sort.) </stage>
+
+<stage>SCÈNE VII</stage> 
+
+<stage>CLARINDO, DON SANCHE. </stage>
+
+<sp who="#CLA"><speaker>CLARINDO</speaker> <p>Il me tardait de vous rencontrer ayant de 
+si bonnes nouvelles à vous apprendre. Donnez-moi, sei- 
+gneur, mes étrennes, quand vos vœux les plus chers sont 
+couronnés.</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Tu es de bonne humeur aujourd'hui !</p> </sp>
+<sp who="#CLA"><speaker>CLARINDO</speaker> <p>Comment? Le cœur ne vous dit rien.</p> </sp>
+
+ <stage>(Il lui remet un billet.)</stage> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker><p> De qui vient ce papier?</p> </sp>
+
+<sp who="#CLA"><speaker>CLARINDO</speaker> <p>D'Estelle, que j'ai vue plus belle et plus 
+brillante que le soleil. Elle m'a chargé de vous remettre 
+ce billet, et de vous demander mes étrennes.</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>A propos de quoi ?</p> </sp>
+
+<sp who="#CLA"><speaker>CLARINDO</speaker> <p>De votre mariage qui va avoir lieu dans un 
+moment.</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Que dis-tu ? J'en mourrai de'joie. Estelle sera ma femme ! L'astre charmant qui annonce l'aurore 
+va m'appartenir î — Rayons dorés du soleil, ne 
+recélez que de la joie dans vos abîmes de lumière. <stage>(Lisant.)</stage> 
+« Cher époux, il est venu le jour si désiré. Mon frère va te 
+chercher pour me donner, à moi la vie, à toi la récompense. Les moments sont précieux. Ne tarde pas à le 
+rejoindre, empresse-toi .de saisir l'occasion. Ton Estelle. » 
+O miracle de beauté ! Quel bonheur sera le mien avec une 
+telle Étoile. — Préviens mon majordome de l'heureux lien 
+que je vais contracter. Qu'il dispose à l'instant les livrées de 
+famille qui sont en réserve pour ces occasions. Je veux 
+que mes pages ceignent leur tète de belles couronnes 
+de plumes ; et toi, prends pour étrenne cette hyacinthe. 
+Je te donnerais aussi bien le soleil, dût le soleil être la 
+pierre de l'anneau.</p> </sp>
+
+<sp who="#CLA"><speaker>CLARINDO</speaker> <p>Vivez, Seigneur, plus longtemps que les 
+rochers, enlacé comme le lierre à votre jeune épouse, et, 
+pour dire davantage, puissiez-vous vivre et durer plus 
+longtemps qu'un sot. </p></sp>
+
+<stage>(Il sort.) </stage>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Allons à la recherche de Busto. Je 
+meurs partagé entre la crainte et l'espérance. Dans mon 
+anxiété, j'oubliais le roi. C'est mal. Ouvrons ce papier, et 
+sachons qui doit périr. <stage>(Lisant.)</stage> « L'homme à qui vous 
+devez donner la mort, s'appelle, don Sanche, — Busto Tabera. » 
+Grand Dieu ! Et j'ai pu consentir! <stage>(Amèrement, après une pause.)</stage> — Toute cette vie n'est qu'un jeu 
+embrouillé, où les atouts sont mêlés aux basses caries, 
+une succession de bonheurs et de disgrâces. Je gagnais 
+d'abord; puis le jeu s'est arrangé de manière à me donner 
+la mort. — Ai-je bien lu?... Ah ! je n'aurais pu épeler ce 
+nom fatal, s'il n'eût été tracé sur le papier t Voyons encore: 
+« L'homme à qui vous devez donner la mort s'appelle, 
+don Sanche, — Busto Tabera. » Je suis perdu ! Que 
+faire ! J'ai donné ma parole au roi... et il me faut renoncer 
+à la sœur... Sancho Ortiz, cela ne peut être; Busto vivra. 
+— Mais faut-il que les désirs l'emportent sur l'honneur? 
+meure donc Busto; qu'il meure ! – Arrête, main cruelle, 
+et laisse, ah ! laisse vivre Busto !</p>
+<p>Mais je suis infidèle à l'honneur, si j'écoute mon amour 1 . 
+Hélas ! qui peut résister à sa tyrannie ? Mieux vaut mourir 
+ou m' éloigner, de manière à continuer au roi mes ser- 
+vices. Sauvons la vie à Busto. — Non, je veux obéir au 
+roi : « L'homme à qui vous devez donner la mort s'appelle 
+« Busto Tabera. » </p>
+<p>Si c'était par amour pour Estelle que le roi le fît tuer... 
+Oui, c'est par amour pour Estelle. Eh bien ! sa sœur ne 
+le fera pas mourir. Je veux affronter le roi et le défendre. 
+— Non, je suis chevalier, et ce n'est pas ce qui me plaît 
+que je dois faire, c'est ce que je dois. Or, quel est ici mon 
+devoir? D'obéir à mon premier engagement? Mais, il n'est 
+pas de loi qui m'impose cette obligation. Si, cette loi existe. 
+Le roi fût-il injuste, il n'a de compte à rendre qu'à Dieu. 
+N'écoutons plus mon fol amour : quoi qu'il m'en coûte, 
+mon devoir m'ordonne de soutenir la cause du roi.</p></sp> 
+
+<stage>SCÈNE VIII </stage>
+
+<stage>Une rue. </stage>
+<stage>BUSTO, DON SANCHE.</stage> 
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Heureux de vous avoir rencontré, beau-frère.</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <stage>à part</stage> <p>Quelle affreuse disgrâce! Il me 
+cherche pour me donner la vie, et moi pour le tuer!</p> </sp>
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Frère, voici venu le jour de votre hymen tant 
+désiré.</p></sp> 
+
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <stage>à part</stage> <p>Dis plutôt le jour qui met le com- 
+ble à ma misère. Dieu de bonté, qui se vit jamais en extrémité si cruelle? Ici même, je suis contraint de tuer l'homme 
+que j'ai le plus chéri... Se résigner à perdre sa sœur... Ah! 
+tout est fini pour moi!... </p></sp>
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Vous êtes déjà par contrat marié à doña Estrella.</p> </sp>
+
+            <sp who="#SAN"><speaker>DON SANCHE</speaker> <p>J'ai du me marier avec elle. Je la refuse, 
+et retire ma parole aujourd'hui.</p> </sp>
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Ai-je bien entendu? C'est à moi que s'adres- 
+sent ces paroles?...</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>A vous, Busto Tabera, à vous-même.</p> </sp>
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Si vous savez que je m'appelle Tabera, comment osez-vous me parler ainsi ?</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>C'est bien parce que je vous connais que 
+je tiens ce langage.</p></sp> 
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Vous connaissez alors un homme qui réunit en 
+lui sang, valeur et noblesse, et qui tire son principal 
+honneur de la vertu, sans laquelle il n'est point d'hon- 
+neur. — Sancho Ortiz, craignez mon courroux.</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Craignez plutôt le mien.</p> </sp>
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Le vôtre? d'où peut-il naître?</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>D'avoir à vous parler.</p> </sp>
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Si à mon honneur, à ma loyauté, vous trou- 
+vez quelque chose à redire, vous mentez comme un infâme, 
+et je vais vous le prouver.</p> </sp>
+
+<stage>(Il tire son épée.) </stage>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <stage>l'épée à la main</stage> <p>Que parles-tu de prouver, traître? <stage>(A part.)</stage> 
+Pardonne-moi, amour; l'offense 
+faite au roi me bouleverse, et je ne puis me contenir.</p> </sp>
+
+<stage>(Ils se battent.)</stage> 
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Arrête ! je suis mort.</p></sp> 
+
+<stage>(Il tombe.) </stage>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Ah! je n'avais plus ma tête! Je l'ai 
+frappé sans le savoir. Maintenant, ô' mon frère, j'ai repris 
+mes sens, tue-moi, c'est ce que je demande. Que ton épée 
+se plonge dans ma poitrine. Livre passage à mon âme.</p></sp> 
+
+<sp who="#BUS"><speaker>BUSTO</speaker> <p>Frère, je vous laisse Estelle. Protégez-la. 
+Adieu.</p></sp> 
+
+<stage>(Il expire.) </stage>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker><p>Épée cruelle, — sanguinaire et détestable homicide, tu m'as ravi la moitié de moi-même. Achève 
+ton ouvrage; qu'un nouveau coup mortel soit la rançon de sa vie.</p> </sp>
+
+<stage>(Il lève son épée.) </stage>
+
+<stage>(Entrent les deux premiers alcades , don Pedro de Guzman , Farfan 
+de Ribera, et d'autres personnages.) </stage>
+<sp who="#PED"><speaker>DON PEDRO</speaker> <stage>vivement</stage> <p>Arrêtez! Que signifie?...</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Pourquoi me retenir si j'ai mis au tombeau la moitié de ma vie?</p> </sp>
+
+<sp who="#FAR"><speaker>DON FARFAN</speaker> <p>Quelle affreuse aventure !</p> </sp>
+
+<sp who="#PED"><speaker>DON PEDRO</speaker> <p>Expliquez-vous?...</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>J'ai tué mon frère, Séville voit un affreux Gain qui a fait couler le sang d'un innocent Abel. Il 
+est là : tuez-moi près de lui. Il est mort de ma main : que 
+ma mort venge la sienne.</p> </sp>
+
+<stage>(Entre don Arias.) </stage>
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Qu'est ceci?...</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Une rigueur outrée, l'effet d'un scrupule 
+d'honneur, dont le pouvoir règne si despotiquement sur 
+les hommes. Dites au roi, mon seigneur, que chez les Sévillans, les faits ne tardent pas à suivre les paroles. Pour 
+y être fidèles, vous le voyez, ils outragent les Estdles, 
+foulent aux pieds les liens fraternels.</p></sp> 
+
+<sp who="#PED"><speaker>DON PEDRO</speaker> <p>à don Arias</p> <p>Il a donné la mort à Busto 
+Tabera.</p></sp> 
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Quelle téméraire audace!</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Qu'on m'arrête, qu'on m'emmène. Il 
+est juste que celui qui a tué périsse. Voyez où peut conduire le dévouement.</p> </sp>
+
+<sp who="#PED"><speaker>DON PEDRO</speaker> <p>Qu'on le mène en prison, à Triana 1 : la 
+ville commence à s'agiter.</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Busto Tabera ! cher ami !...</p> </sp>
+
+<sp who="#PED"><speaker>DON PEDRO</speaker> <p>Cet homme a perdu la tête.</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Laissez-moi prendre dans mes bras ce 
+corps glacé que baigne un si noble sang. Je serai son soutien, et lui rendrai un moment la vie que je lui ai ôtée.</p> </sp>
+
+<sp who="#PED"><speaker>DON PEDRO</speaker> <p>Il devient fou.</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>J'ai brisé mon cœur pour obéir à la loi. 
+C'est à la fois, monsieur, être roi et ne pas l'être. Comprenez-moi, s'il vous plaît, ou plutôt n'essayez pas de 
+comprendre, puisque je ne m'explique pas. Je l'ai tué; le 
+cas n'est pas niable, mais je me tais sur le motif : qu'un 
+autre s'explique sur le motif, quand je déclare, moi, que 
+je l'ai tué.</p></sp> 
+
+<stage>(Tous sortent en emportant le cadavre. ) </stage>
+
+<stage>SCÈNE IX </stage>
+
+<stage>Salle dans la maison de Busto Tabera. </stage>
+
+<stage>ESTELLE, TEODORA.</stage> 
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <stage>à sa toilette</stage> <p>Suis-je bien mise? je ne sais, 
+tant j'ai mis de hâte à m'habiller. Donne-moi un miroir, Teodora.</p></sp> 
+
+<sp who="#TEO"><speaker>TEODORA</speaker> <p>Il faudrait, madame, vous mirer eh vousmême. Où trouver plus fidèle miroir? Quel est le cristal 
+qui réfléchit jamais tant de beauté?</p> </sp>
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>J'ai le teint échauffé, le visage altéré.</p></sp> 
+
+<sp who="#TEO"><speaker>TEODORA</speaker> <p>Effets de pudeur et de crainte. Le sang 
+monte à vos joues pour saluer votre bonheur.</p></sp>
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Il me semble voir mon époux, le visage 
+inondé de joie, qui vient m'offrir la main avec mille tendres caresses. Il me semble entendre ses doux propos. Je 
+l'écoute, et mon ame qui s'échappe par mes yeux essaye 
+vainement de dissimuler son ivresse. Jour fortuné, Teo- 
+dora, que ne dois-je pas à mon étoile ?</p></sp> 
+
+<sp who="#TEO"><speaker>TEODORA</speaker> <p>On dirait qu'il y a du bruit dans la rue. 
+— Ah! le miroir est tombé! <stage>(Le relevant.)</stage> C'est par jalousie. Le voilà maintenant en mille pièces.</p></sp> 
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Il s'est brisé?</p></sp> 
+
+<sp who="#TEO"><speaker>TEODORA</speaker> <p>Oui, madame.</p></sp> 
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>A merveille. Il comprend que j'attends le 
+cristal où se mireront mes yeux. Laissons donc se briser 
+le miroir, chère amie; désormais, je ne veux en avoir 
+d'autre que les yeux de mon époux.</p></sp>
+
+<stage>(Entre Clarindo en habit de grand gala.) </stage>
+
+<sp who="#CLA"><speaker>CLARINDO</speaker> <p>Voilà, madame, qui n'annonce que bon- 
+heur et joie. Les plumes au chapeau sont synonymes de 
+bans de mariage. — J'ai remis à mon maître votre billet, 
+et il m'a donné cette bague en étrennes.</p></sp> 
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Je veux faire un marché avec toi. Prends ce 
+diamant, et donne-moi ta bague.</p></sp> 
+
+<sp who="#CLA"><speaker>CLARINDO</speaker> <stage>étant sa bague</stage> <p>La pierre s'est fendue en 
+deux. Ce sera de chagrin. On dit que l'hyacinthe souffre 
+de ce mal, môme quand on l'a ôtée. Elle est brisée palle milieu.</p></sp>
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Peu importe. Je suis charmée que les pierres 
+paraissent sensibles à mon bonheur, à mes joies. Jour fortuné! ô mes amis, quelle étoile est la mienne!</p> </sp>
+
+<sp who="#TEO"><speaker>TEODORA</speaker> <p>Il y a foule en bas dans le vestibule.</p></sp> 
+
+<sp who="#CLA"><speaker>CLARINDO</speaker> <p>On dirait des gens qui montent par l'escalier.</p> </sp>
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Comment soutenir le poids de ce bonheur?</p></sp> 
+            
+<stage>SCÈNE X</stage> 
+
+<stage>Entrent les deux premiers ALCADES, accompagnés d'hommes portant 
+le cadaivre de Busto. </stage>
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Mais, que vois-je, grands dieux!...</p> </sp>
+
+<sp who="#PED"><speaker>DON PEDRO</speaker> <p>Le malheur et l'infortune sont le lot de 
+l'humanité. Cette vie est une vallée de larmes. Busto Tabera n'est plus.</p> </sp>
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>O fortune ennemie !</p> </sp>
+
+<sp who="#PED"><speaker>DON PEDRO</speaker> <p>Il vous reste une consolation : le cruel homicide, 
+Sancho Ortiz de las Roelas, est arrêté, et dès demain il en sera fait bonne justice.</p></sp> 
+
+<sp who="EST"><speaker>ESTELLE</speaker> <p>Hors d'ici , troupe ennemie! la rage de 
+l'enfer est clans votre langage. Mon frère est mort, et 
+c'est, ditës-vous, Sancho Ortiz qui l'a tué?... Se peut-il 
+qu'on prononce, se peut-il qu'on entende de telles paroles 
+sans mourir ! — Et je vis?... Je suis donc un marbre insensible? O jour cruel! — Voyez, amis, quelle étoile est 
+la mienne. Ah! si vous avez quelque sentiment de pitié, 
+tuez- moi, tuez-moi.</p></sp> 
+
+<sp who="#PED"><speaker>DON PEDRO</speaker> <p>Sa douleur l'égaré, et il y a de quoi.</p> </sp>
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Malheureuse a été mon étoile! Mon frère est 
+mort, et mort de la main de Sancho Ortiz : trois âmes 
+réunies en un seul cœur maintenant séparées! Laissez-moi : je ne me connais plus!... </p></sp>
+
+<sp who="#PED"><speaker>DON PEDRO</speaker> <p>Le désespoir l'accable.</p> </sp>
+
+<sp who="#FAR"><speaker>FARFAN</speaker> <p>Beauté infortunée!</p> </sp>
+
+<sp who="#PED"><speaker>DON PEDRO</speaker> <p>Qu'on la suive...</p> </sp>
+
+<sp who="#CLA"><speaker>CLARINDO</speaker> <p>Madame...</p> </sp>
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Laisse-moi, malheureux! qui me rappelles 
+le fratricide. Puisque tout est fini pour moi, je veux en 
+finir avec la vie. Fatale journée! Ah! Teodora, regarde 
+comme a tourné mon étoile !</p> </sp>
+<stage>FIN DE LA DEUXIÈME JOURNÉE.</stage>
+
+</div>
+<div type="jornada" n="3">
+                
+<stage>TROISIÈME JOURNÉE</stage> 
+<stage>SCÈNE I</stage> 
+<stage>Salon de l'Alcázar. </stage>
+<stage>LE ROI, LES DEUX ALCADES, DON ARIAS.</stage> 
+
+<sp who="#PED"><speaker>DON PEDRO</speaker> <p>Il reconnaît l'avoir tué, mais il se tait sur 
+le motif.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Il ne donne aucune raison?</p> </sp>
+
+<sp who="#FAR"><speaker>DON FARFAN</speaker> <p>Il se borne à répondre : «Je ne sais. »</p> </sp>
+
+<sp who="#PED"><speaker>DON PEDRO</speaker> <p>Quel étrange mystère!</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Parle-t-il d'avoir été provoqué?</p> </sp>
+
+<sp who="#PED"><speaker>DON PEDRO</speaker> <p>En aucune manière.</p> </sp>
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Quel imbroglio bizarre!</p> </sp>
+
+<sp who="#PED"><speaker>DON PEDRO</speaker> <p>Il avoue lui avoir donné la mort; il ignore 
+s'il la méritait. Il se borne à reconnaître qu'il l'a tué, 
+parce qu'il avait donné sa parole de le faire.</p> </sp>
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Il doit y avoir eu provocation.</p> </sp>
+
+<sp who="#PED"><speaker>DON PEDRO</speaker> <p>Il le nie.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Retournez, et lui dites que je l'invite à présenter sa justification. Assurez-le de mon affection; mais 
+qu'il ne m'oblige pas à recourir à la rigueur du châtiment. 
+Qu'il déclare à quelle occasion il a donné la mort à Rusto 
+Tabera, et qu'il en explique sommairement le motif, plutôt 
+que de s'exposer à mourir comme un niais. Qu'il dise si 
+c'est par l'ordre ou en considération de quelqu'un; à 
+quelle impulsion il a obéi. Je suis prêt à accueillir sa justification, sinon, qu'il se prépare à la mort.</p></sp> 
+
+<sp who="#PED"><speaker>DON PEDRO</speaker> <p>Il ne demande pas mieux. Il meurt de 
+regret. Un acte si odieux, si dur, si farouche, le met hors 
+de lui-même.</p> </sp>
+
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Il ne se plaint de personne?</p></sp> 
+<sp who="#PED"><speaker>DON PEDRO</speaker> <p>Non, sire, il est tout entier à sa douleur.</p></sp> 
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Remarquable et rare énergie!</p></sp> 
+<sp who="#FAR"><speaker>DON FARFAN</speaker> <p>Il n'inculpe personne, et n'accuse que 
+lui-même.</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <stage>à don Arias</stage> <p>Jamais on n'aura vu au monde 
+deux hommes pareils. Plus je songe à leur valeur, plus 
+j'ai de regret. Dites-lui encore unô fois qu'il déclare à 
+quelle impulsion il a obéi. Qu'il s'explique et me charge 
+moi-même, s'il le faut. S'il ne parle à l'instant même, demain, sur un échafaud, il servira d'exemple à Séville.</p></sp> 
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>J'obéirai.</p> </sp>
+
+<stage>(Les alcades sortent avec don Arias.)</stage> 
+<stage>SCÈNE II </stage>
+<stage>Entre DON MANUEL.</stage> 
+
+<sp who="#MAN"><speaker>don manuel</speaker> <p>Doña Estrella fait demander à Votre Majesté la permission de lui baiser les mains.</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Qui l'en empêche?</p> </sp>
+
+<sp who="#MAN"><speaker>don manuel</speaker> <p>Le peuple, sire.</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker><p> A quel propos ? — Donnez-moi un fauteuil, et 
+faites entrer à l'instant.</p></sp> 
+
+<sp who="#MAN"><speaker>don manuel</speaker> <p>Je cours la prévenir.</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Je vais voir cette beauté obscurcie, et pareille 
+à l'étoile qui brille au sein de la tempête.</p> </sp>
+
+<sp who="#MAN"><speaker>don manuel</speaker> <p>La voici : son éclat est encore pareil à 
+celui du soleil, mais du soleil voilé par les brouillards du 
+matin.</p> </sp>
+
+<stage>(Entre Estelle accompagnée de sa suite.)</stage> 
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Don Sanche, roi illustre et très-chrétien de 
+Castillo, non moins célèbre par tes exploits que fameux 
+par tes vertus, la malheureuse Estelle, voilant ses rayons 
+sous de noirs habits de deuil, symbole de sa douleur, vient 
+te demander justice, à condition que tu ne seras pas l'exécuteur de sa vengeance. Laisses-en le soin à mon choix. 
+Je ne veux pas retenir mes larmes. Noyés de pleurs, mes 
+yeux t'expriment suffisamment mes regrets. — J'aimais 
+Tabera, ce frère qui oublie aujourd'hui ses douleurs terrestres, en foulant l'azur des célestes parvis. Ce frère qui 
+me protégeait, je le regardais comme un père, me guidant 
+avec respect d'après ses conseils. Je vivais heureuse avec 
+lui, sans permettre aux rayons du soleil de me ternir, 
+n'ayant d'ailleurs que rarement occasion de m'en défendre. 
+Séville enviait notre union. A ses yeux, Tabera ne vivait 
+que pour Estelle. Un chasseur barbare vient à bander la 
+corde de l'arc, dont le trait cruel va frapper mon frère, 
+et détruit ma félicité. J'ai perdu mon frère, perdu un époux. 
+Je demeure seule; et tu ne parais pas songer à tes devoirs 
+de roi, cjont rien pourtant ne saurait te dispenser. Faismoi justice, seigneur. Livre-moi le coupable; remplis ton 
+devoir en ce point, mais laisse-moi fixer la peine.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Calmez-vous, et essuyez ces beaux yeux, si 
+vous ne voulez que mon palais s'embrase, car les étoiles 
+sont larmes du soleil, comme chacun de ses rayions est 
+topaze. Rendez à l'aurore ses trésors, et que le ciel les 
+récèle jaloux, car il n'est pas bon qu'ils se perdent sur la 
+terre. — Prenez cet anneau; il abaissera devant vous les 
+portes du château de Triana; on vous livrera le prisonnier. Soyez pour lui la tigresse des rochers d'Hyrcanie, 
+sans oublier qu'à la honte de l'homme les animaux sauvages lui servent quelquefois d'enseignement.</p></sp> 
+
+<sp who="#EST"><speaker>ESTELLE</speaker><p>Seigneur, ici la vertu consiste dans la rigueur 
+.............................................. . 
+Si Tabera est mort, il demeure un Tabera. Si sur mon 
+visage reposait l'honneur de ma maison, mes mains l'arrangeraient de manière qu'il devînt l'effroi des plus cruels 
+tyrans.</p> </sp>
+
+<stage>(Tous sortent, à l'exception du roi.) </stage>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Si Sancho Ortiz lui est livré, je crains qu'elle 
+ne le tue de sa propre main. Faut-il qu'en un vase de si 
+rare perfection Dieu permette que se trouve la cruauté? 
+Voyez les conséquences d'un moment d'erreur. J'ai armé 
+la main de don Sanche, et en ce moment je le livre. Quand 
+l'amour pénètre sous la pourpre des rois, il ne reconnaît 
+plus d'autre loi que son caprice.</p></sp> 
+
+<stage>SCÈNE III </stage>
+<stage>Prison dans le château de Triana. </stage>
+<stage>DON SANCHE, CLARINDO, MUSICIENS.</stage>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Eh bien ! Clarindo, mon aventure ne 
+t'aura pas inspiré quelques vers?</p></sp> 
+
+<sp who="#CLA"><speaker>CLARINDO</speaker> <p>Des vers, monsieur, quand la poésie est si 
+mal récompensée? A la dernière fête sur la place, plusieurs me commandèrent des vers; depuis, me rencontrant 
+dans la rue, comme s'ils avaient eu affaire à leur tailleur : 
+Eh bioii! disaient-ils, mon compliment est-il prêt? Ils 
+étaient plus pressés que s'il se fut agi d'une reprise. Si 
+j'avais eu de quoi manger, j'aurais été plus muet qu'Anaxagore, et j'aurais envoyé promener les génies grecs et 
+latins.</p> </sp>
+
+<stage>(Entrent les alcades et don Arias.) </stage>
+
+<sp who="#CLA"><speaker>CLARINDO</speaker> <p>Je crois, monsieur, que l'on vient vous lire 
+votre sentence.</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <stage>aux musiciens</stage> <p>Vite, vous autres, chantez-moi un air. — Oui, la mort est bienvenue, et je veux 
+par des chansons faire paraître mon contentement. Je veux 
+en outre leur faire voir que mon cœur ne tremble pas, et 
+qu'il sait être calme devant la mort.</p></sp> 
+
+<sp who="#CLA"><speaker>CLARINDO</speaker> <stage>à part</stage> <p>Admirable sang-froid! Que ferait 
+de mieux un ivrogne allemand, au nez rougi par les cares- 
+ses de la bouteille?</p> </sp>
+
+<stage>(Les musiciens chantent.)</stage> 
+
+<sp who="MUS"><speaker>LES MUSICIENS</speaker> <p>« Puisque mon plus grand malheur consiste en ce que 
+je vis, je vais obtenir de la mort ce que d'autres gagnent 
+à vivre. »</p> </sp>
+
+<sp who="#CLA"><speaker>CLARINDO</speaker> <p>L'énigme est jolie, ma foi!</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Spirituelle et de circonstance.</p> </sp>
+<sp who="MUS"><speaker>LES MUSICIENS</speaker> <stage>continuant</stage>  <p>« Il n'est rien qui vaille la 
+« mort à celui qui vit en mourant. »</p></sp>
+
+<stage>(Les musiciens sortent.) </stage>
+
+<sp who="#PED"><speaker>DON PEDRO</speaker> <p>De la musique, monsieur? Est-ce bien le moment?</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Connaissez-vous pour un prisonnier meilleur moyen d'alléger sa souffrance?</p></sp> 
+
+<sp who="#FAR"><speaker>DON FARFAN</speaker> <stage>à don Pedro</stage> <p>Quand la mort est suspendue sur sa tète, 
+et qu'il doit attendre d'instant en instant la sentence fatale, il se fait faire de la musique?</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Je suis cygne, et j'attends la mort en 
+chantant.</p> </sp>
+
+<sp who="#FAR"><speaker>DON FARFAN</speaker> <p>L'instant fatal est arrivé.</p> </sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Les pieds et les mains je vous baise pour 
+la nouvelle que vous m'apportez. Jamais ne m'apparut plus 
+belle journée.</p></sp> 
+
+<sp who="#PED"><speaker>DON PEDRO</speaker> <p>Sancho Ortiz de las Roelas, dites, recon- 
+naissez-vous avoir donné la mort à Busto Tabera?</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Oui, je le déclare hautement. — Cherchez des tourments nouveaux qui 
+fassent oublier à l'Espagne Mézence et Phalaris.</p></sp> 
+
+<sp who="#FAR"><speaker>DON FARFAN</speaker> <p>Vous l'avez tué; par quel motif?</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Je l'ai tué, je le reconnais. Quant au 
+motif que je parais cacher si bien, que quelqu'un le dise, 
+s'il le connaît. Pour moi, j'ignore la cause de la mort de 
+Busto; tout ce que je sais, c'est que je l'ai tué sans la connaître.</p> </sp>
+
+<sp who="#PED"><speaker>DON PEDRO</speaker> <p>Mais il y a trahison à tuer un homme sans 
+motif.</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Il faut bien qu'il en ait fourni à quelqu'un, puisqu'il est mort.</p></sp>
+<sp who="#PED"><speaker>DON PEDRO</speaker> <p>A qui?</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>A celui qui m'a mené au point où je suis, 
+c'est-à-dire au commencement de la fin.</p> </sp>
+<sp who="#PED"><speaker>DON PEDRO</speaker> <p>Son nom.</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Je ne puis le dire : on m'a demandé le 
+secret. Magnanime par le bras, je dois l'être aussi par mon 
+silence; et pour me mettre à mort moi-même, qu'il vous 
+suffise de savoir que je l'ai tué, sans m'en demander le 
+motif.</p></sp> 
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Seigneur Sancho Ortiz, je viens ici, au 
+nom et à la requête de Sa Majesté, vous demander de déclarer quelle est la cause de celle déplorable aventure; s'il 
+y a là dedans un ami, une femme, un parent, ou quelque 
+grand seigneur de ces royaumes. Et si vous avez de lui 
+quelque papier, quelque caution ou convention écrite ou 
+signée, faites-le connaître sur-le-champ, comme c'est votre 
+devoir.</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Si je le fais, monsieur, ce devoir, je le 
+trahirai. -Dites, je vous prie, à Sa Majesté, queje sais tenir 
+mes promesses. Si le roi s'appelle Sancho le Brave, vous 
+savez queje porte le même nom. Dites-lui que je pourrais 
+avoir en effet un papier; mais il m'offense en me le demandant, car il m'a vu le déchirer. — J'ai tué Busto Tabera; 
+je pourrais être libre d'un mot. Ce mot, je ne le dirai pas, 
+sachant que ce serait violer ma parole. Je suis roi en ce 
+que j'ai tenu la mienne; j'ai fait ce que j'avais promis. Que 
+celui qui a promis fasse de même; qu'il soit esclave de sa 
+parole comme moi.</p></sp> 
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Si d'un mot vous pouvez vous justifier, 
+c'est folie que de le taire.</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Je sais qui je suis; en demeurant ce que 
+je suis, je me vaincs moi-même par le silence, et je fais 
+affront à qui se tait. Chacun sent ce qu'il est, et fait paraître ce qu'il est par ses œuvres. Ici, les actes seront 
+conformes à ce que nous sommes tous deux.</p> </sp>
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Je vais répéter vos paroles à Son Altesse.</p> </sp>
+
+<sp who="#PED"><speaker>DON PEDRO</speaker> <p>Seigneur Sancho Ortiz, vous avez agi 
+bien à la légère, et il y a peu de réflexion dans cette conduite.</p></sp> 
+
+<sp who="#FAR"><speaker>DON FARFAN</speaker> <p>Vous avez gravement offensé le Corps 
+municipal de Séville. Votre vie est entre ses mains, et sa 
+colore peut faire tomber votre tête.</p> </sp>
+
+<stage>(Les alcades sortent suivis de don Arias.) </stage>
+
+<stage>SCÈNE IV</stage> 
+
+<stage>DON SANCHE, CLARINDO.</stage> 
+
+<sp who="#CLA"><speaker>CLARINDO</speaker> <p>Vous résigner à tant d'injustice? Est-ce 
+possible ?</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker><p>J'accepte le châtiment des hommes et la 
+punition du ciel. Déjà, Clarindo, elle commence. N'entends-tu pas un bruit sourd retentir 
+dans les airs, accompagné d'éclairs et de tonnerre? Sur moi s'abaisse un trait 
+de feu qui m'entortille comme un serpent.</p></sp> 
+
+<sp who="#CLA"><speaker>CLARINDO</speaker> <p>Vous avez perdu la tête. <stage>(A part.)</stage> Entrons 
+dans son idée.</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Je brûle. </p></sp>
+
+<sp who="#CLA"><speaker>CLARINDO</speaker> <p>Je grille.</p> </sp>
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>L'éclair t'a donc aussi frappé?</p> </sp>
+<sp who="#CLA"><speaker>CLARINDO</speaker> <p>Voyez; me voilà réduit en cendres.</p></sp> 
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Ah! mon Dieu!...</p> </sp>
+<sp who="#CLA"><speaker>CLARINDO</speaker> <p>Oui, monsieur, en cendres comme un fagot de sarments.</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Nous voilà maintenant dans l'autre vie.</p> </sp>
+
+<sp who="#CLA"><speaker>CLARINDO</speaker> <p>Oui, et, je crois, en enfer.</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>En enfer? A quoi le juges-tu?</p> </sp>
+
+<sp who="#CLA"><speaker>CLARINDO</speaker> <p>Parce que je vois, monsieur, dans ce château plus de mille tailleurs en train de mentir.</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Tu dis vrai : nous y sommes. Je vois 
+l'Orgueil brûler dans les flammes de cette tour formée 
+d'arrogants et de superbes. Je vois l'Ambition noyée dans 
+un abîme de feu.</p></sp> 
+
+<sp who="#CLA"><speaker>CLARINDO</speaker> <p>Et un peu plus loin une légion de cochers.</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Si par ici roulent des carrosses, l'enfer 
+sera bientôt démoli. — Mais, si nous sommes vraiment 
+en enfer, comment n'y vois-je pas quelques greffiers?</p></sp> 
+
+<sp who="#CLA"><speaker>CLARINDO</speaker> <p>On les refuse à la porte, pour qu'ils n'y 
+fassent pas pousser les procès.</p> </sp>
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Puisqu'on ne connaît pas les procès en 
+enfer, l'enfer a été calomnié.</p> </sp>
+
+<sp who="#CLA"><speaker>CLARINDO</speaker> <p>Voici là-bas un tyran qui s'appelle l'Honneur, entouré d'une foule de sots, victimes de sentiments 
+outrés.</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Je veux me réunir à eux. — Honneur, 
+un niais d'honneur se présente pour être des vôtres, ayant 
+toujours été fidèle à vos lois. — Vous avez grand tort, car 
+aujourd'hui le véritable honneur consiste à n'en plus avoir. 
+Vous venez me chercher par ici, quand il y a des siècles 
+que je suis mort. Procurez-vous de l'argent, mon cher; 
+l'argent remplace l'honneur aujourd'hui. Quel est votre 
+cas? — J'ai voulu tenir ma parole. — Vous me sembloz 
+naïf. Tenir sa parole! Vous voulez rire. Mentir à sa parole, 
+à la bonne heure : c'est le bel air dans ce temps-ci.</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>J'avais promis de tuer un homme, hélas! 
+et je l'ai tué! C'était mon meilleur ami. — Mauvais.</p> </sp>
+
+<sp who="#CLA"><speaker>CLARINDO</speaker> <p>Du moins, pas très-bon.</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Détestable, en effet. — Qu'on le jette au 
+fond d'un cachot, et qu'il soit condamné pour sa sottise.</p></sp> 
+
+<sp who="#CLA"><speaker>CLARINDO</speaker><stage>à part</stage> <p>Dieu me pardonne! si je le hiisse 
+continuer, il va perdre le jugement. Imaginons quelque 
+moyen.</p> </sp>
+
+<stage>(Il se met à crier.) </stage>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Des cris ! Qui est-ce qui crie?</p></sp> 
+
+<sp who="#CLA"><speaker>CLARINDO</speaker> <p>C'est la voix du chien Cerbère, portier de 
+ce palais. — Vous ne me connaissez pas?</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Je crois que si.</p> </sp>
+<sp who="#CLA"><speaker>CLARINDO</speaker> <p>Et vous? qui ètes-vous?</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Un raffiné d'honneur.</p> </sp>
+
+<sp who="#CLA"><speaker>CLARINDO</speaker> <p>Partez vite. Nous n'avons que faire ici des 
+gens d'honneur. Qu'on le prenne et qu'on l'emporte dans 
+l'autre monde, à la prison de Séville, et plus vite que le 
+vent. — Mais comment? — Les yeux bandés, pour qu'il 
+n'ait pas peur dans le trajet. — Voilà qui est fait. <stage>(Il bande 
+les yeux à don Sanche.)</stage> Que le diable boiteux le charge 
+sur ses épaules, et le transporte là-bas d'un saut. — D'un 
+saut? ça me va. <stage>(Clarindo s'empare de don Sanche.)</stage> — 
+Pars, et emmène avec lui son compagnon par la main. 
+<stage>(Il fait une pirouette et le dépose.)</stage> Vous voilà sur la terre, 
+mon cher. Demeurez avec Dieu.</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Le diable a parlé de Dieu?</p> </sp>
+
+<sp who="#CLA"><speaker>CLARINDO</speaker> <p>Oui, monsieur. Ce démon, avant d'entrer 
+en fonctions, était chrétien et baptisé. C'est un Galicien de 
+la rue des Francs.</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Il me semble sortir d'une extase. — Que 
+Dieu me soit en aide! Ah! Estelle, que ma destinée est 
+triste sans toi! Mais j'ai consenti à te perdre : je mérite 
+mon châtiment.</p></sp> 
+
+<stage>(Entre l'alcaïde suivi d'Estelle voilée.)</stage> 
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Qu'on me remette à l'instant le prisonnier.</p> </sp>
+
+<sp who="#CAU"><speaker>L'ALCAÏDE</speaker> <p>Le voici, madame; et, selon les ordres du 
+roi, je le remets entre vos mains. — Seigneur Sancho Ortiz, la volonté de Sa Majesté est que vous soyez remis aux 
+mains de madame.</p></sp> 
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Suivez-moi, seigneur.</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Je rends grâces à votre pitié, si c'est 
+pour me faire mourir; la mort est mon unique espoir.</p> </sp>
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Votre main; venez.</p></sp> 
+
+<sp who="#CLA"><speaker>CLARINDO</speaker> <stage>à part</stage> <p>Serions-nous dans le royaume des 
+fées?</p> </sp>
+
+<sp who="EST"><speaker>ESTELLE</speaker> <p>Que personne ne suive.</p></sp> 
+
+<sp who="#CLA"><speaker>CLARINDO</speaker> <p>Fort bien. <stage>(Sortent Estelle et don Sanche.)</stage> 
+Vive Dieu! Voilà qui va bien! De Séville en enfer, et puis 
+de l'enfer à Séville! Fasse Dieu que cette Estelle nous soit 
+un guide favorable!</p> </sp>
+
+<stage>(Il sort.) </stage>
+
+<stage>SCÈNE V </stage>
+
+<stage>La campagne.</stage> 
+
+<stage>ESTELLE, toujours voilée, DON SANCHE. </stage>
+
+<sp who="#EST"><speaker>ESTELLE</speaker><p>Vous êtes rendu à la liberté. Allez avec Dieu, 
+Sancho Ortiz, et n'oubliez pas la clémence et la pitié dont 
+j'use envers vous. Allez avec Dieu; partez, vous êtes libre. 
+— Vous hésitez! Qu'attendez-vous? Pourquoi tarder? C'est 
+du temps perdu. Partez; un cheval vous attend. Votre valet 
+a de l'argent pour la route.</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Madame, que je baise vos pieds!</p> </sp>
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Non; ce n'est pas le moment.</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Pardon : j'ai besoin de savoir à qui je 
+dois ma délivrance, pour que je puisse, à l'occasion, reconnaître un si grand bienfait.</p> </sp>
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>A une femme qui vous est dévouée. — Votre 
+liberté est en mon pouvoir; je vous la rends. Allez avec Dieu.</p></sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Je ne bouge pas d'ici si vous ne me dites 
+qui vous êtes 1 , ou si vous ne levez votre voile.</p> </sp>
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Je ne puis en ce moment.</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Je veux payer la dette de ma liberté, de 
+ma vie; je veux savoir à qui je suis redevable d'un tel bienfait, afin de m' acquitter un jour.</p></sp> 
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Je suis une femme de haut rang, et, pour 
+dire la vérité, la femme qui vous aime le plus au monde, 
+et à qui vous voulez le plus de mal. Adieu!</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Je n'en ferai rien, si vous ne vous dévoilez 
+sur l'heure.</p></sp> 
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Puisqu'il le faut... <stage>(Levant son voile.)</stage> Recon- 
+nais-moi.</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Señora! Estelle de mon âme!</p></sp> 
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Je suis l'étoile qui te guide et te dérobe à 
+la mort. Fuis; tu le vois, l'amour a étouffé la voix de ma 
+colère. Je t'aime et ne veux être que ton astre favorable.</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Toi, belle et resplendissante auprès de 
+Ion mortel ennemi! Toi si sensible! Sois moins généreuse 
+envers moi : la compassion est ici cruauté, puisque le châtiment serait compassion. 
+Fais-moi donner la mort. Tu accorderais la liberté à l'homme qui a tué ton frère?... Il ne 
+faut pas que je vive quand ma main a versé son san'g. Il 
+est juste que celui qui s'est privé d'un tel ami se perde luimême. Libre maintenant, je me livre à la mort, à cette 
+mort que j'invoquais quand j'étais prisonnier.</p> </sp>
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Mon amour est plus fort, plus vaillant; il 
+te sauvera la vie.</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Tu veux me délivrer, et moi je vais cher- 
+cher la mort, car si tu montres qui tu es, je dois faire voir 
+qui je suis.</p></sp> 
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Pourquoi mourir?</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Pour te venger.</p></sp> 
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>De quoi?</p></sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>De ma trahison.</p></sp> 
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Tu es cruel.</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Non, je suis juste.</p></sp> 
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Tu n'as plus de partie.</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>L'amour est ma partie.</p> </sp>
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>C'est me punir.</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Non, c'est t'aimer.</p> </sp>
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Gomment le prouves-tu?</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Par ma mort.</p></sp> 
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Un mot encore.</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Je n'écoute rien.</p> </sp>
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Où vas-tu?</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>A la mort, puisque c'est t'offenser que 
+de vivre.</p> </sp>
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Vis et sois libre.</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Ce n'est pas juste.</p></sp> 
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Qui t' accuse ?</p></sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Ton dédain.</p></sp> 
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Moi? je t'aime.</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Il n'importe.</p> </sp>
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Y songes-tu?</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Je songe à mon honneur.</p> </sp>
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Va donc, insensé, va mourir; mais je ne te 
+survivrai pas.</p></sp> 
+
+<stage>(Ils se séparent.) </stage>
+<stage>SCÈNE VI</stage> 
+<stage>Salon de l'Alcazar. </stage>
+<stage>LE ROI, DON ARIAS.</stage> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Il ne veut pas avouer que je lai ai donné 
+l'ordre?</p> </sp>
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Je ne vis jamais bronze plus ferme. Il 
+s'est d'abord renfermé dans une complète dénégation, et a 
+fini par dire qu'ayant tenu sa promesse, c'est à l'homme 
+envers qui il s'est obligé à tenir la sienne.</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Il espère venir à bout de moi par le silence.</p> </sp>
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Il s'y croit parvenu.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Il a été fidèle à sa parole, et je me sens hu- 
+milié de ne pouvoir tenir celle que je lui ai donnée dans un 
+moment de dépit.</p></sp> 
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Cette parole donnée, vous devez la tenir. 
+C'est la le devoir du premier venu. Mais la parole d'un 
+roi se transforme en loi en tombant de ses lèvres, et tout 
+doit s'incliner devant la loi.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Oui, si on interprète la loi par la raison na- 
+turelle.</p></sp> 
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Il le faut bien. Un sujet ne demande pas 
+la loi au roi : il n'est tenu qu'à l'exécuter à l'aveugle, sans 
+autre information. C'est au roi à réfléchir. Vous avez aujourd'hui promulgué la loi sur ce papier, et puisqu'il l'a 
+exécutée, vous avez à subir les conséquences de la loi que 
+vous avez faite en lui ordonnant de tuer Busto Tabora. 
+Si la loi n'avait pas existé par votre fait, il n'aurait pas 
+songé à le tuer.</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Quoi ! je suis forcé de déclarer que c'est moi 
+qui ai commandé de lui donner la mort, et que j'ai usé de 
+cette cruauté envers un homme qui ne m'avait fait aucune 
+oifense? Que dira de moi, don Arias, la Municipalité de 
+Séville, en voyant que je suis l'auteur du meurtre? Que 
+dira-t-on en Castille? en ce moment où don Alphonse 
+me proclame usurpateur, et où le Souverain Pontife me 
+flétrit de ses censures. Peut-être en viendra-t-il à appuyer le parti de mon neveu, dont le succès est dès lors 
+assuré. J'aurais tort, je le crois. — D'un autre côté, laisser 
+mourir Sancho Ortiz est une honte. Cruelle perplexité !</p></sp> 
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Votre Majesté peut gagner les alcades 
+par des caresses, et leur demander de se montrer cléments, 
+en n'exigeant pour le crime d'autre châtiment que l'exil. 
+Sancho Ortiz sera donc puni. Votre Majesté se déclare ensuite pour lui, et le fait l'objet de quelque faveur. Vous 
+pouvez, par exemple, lui donner un commandement sur la 
+frontière. </p></sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Tu as raison. Mais si, moyennant l'anneau 
+que je lui ai remis, Doña Estrella a déjà poussé la chose 
+à l'extrême ? Que faire alors ?</p></sp> 
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Il y a remède à tout. J'irai m'assurer en 
+votre nom de sa personne, sous quelque prétexte; puis, 
+sans accompagnement et sans bruit, je Ja conduirai à l'Alcazar. Là, vous l'amènerez à votre but; et, comme 
+moyen, vous pourrez, seigneur, lui proposer de la marier 
+à quelque grand de la Cour. Sa personne et sa noblesse 
+méritent un époux de haut rang.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Quel regret j'ai de ma faiblesse, don Arias, 
+et qu'il a raison ce philosophe qui disait que celui-là seulement mérite le nom de sage, qui sait user à propos de 
+sévérité ou de clémence. — Oui, va t'assurer de doña 
+Estrella; cette mesure met fin à mon cruel embarras. Je 
+l'apaiserai en lui donnant pour époux un ricohombre de 
+Castille; je lui donnerais mon trône, si je le pouvais, car, 
+ce frère, cette sœur sont dignes de l'immortalité.</p></sp> 
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Les gens de ce pays-ci font vraiment pâlir 
+la vertu romaine.</p></sp> 
+
+<stage>(Il sort.) </stage>
+<stage>SCÈNE VII</stage>
+<stage>Entre LE GOUVERNEUR du château. </stage>
+
+<sp who="#CAU"><speaker>LE GOUVERNEUR</speaker> <p>Que je baise les pieds de Votre Majesté !</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Vous à mes pieds, Pedro de Caus? Pour quel motif ?</p></sp> 
+
+<sp who="#CAU"><speaker>LE GOUVERNEUR</speaker> <p>Cet anneau gravé à vos armes appartient-il à Votre Majesté ?</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Oui, cet anneau vous couvre et vous meten sûreté contre toute espèce de délit.</p> </sp>
+
+<sp who="#CAU"><speaker>LE GOUVERNEUR</speaker> <p>Couverte d'un voile épais, une femme 
+s'est présentée àTriana, disant que Votre Majesté ordonnait 
+de lui remettre Sancho Ortiz. J'ai soumis cet ordre aux 
+gardiens, lesquels en voyant l'anneau ont tous été d'avis 
+de livrer le prisonnier. J'ai obéi. Un moment après, revient 
+Sancho Ortiz, demandant à grands cris qu'on lui rouvre 
+les portes du château. — Je neveux pas souscrire au commandement du roi, s'écriait-il, comme en délire. Je veux 
+mourir. Le meurtrier de Tabcra mérite la mort. Je lui 
+barrai le passage; mais il criait si haut qu'il fallut lui 
+ouvrir. — Il est là, résigné tranquillement à la mort.</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Je ne vis jamais peuple plus noble, plus chrétien, que celui de cette cité ! Arrière, bronzes, marbres et 
+statues !</p></sp> 
+
+<sp who="#CAU"><speaker>LE GOUVERNEUR</speaker> <p>Cette dame nous a dit qu'elle l'avait 
+mis en liberté, niais qu'il n'a pas voulu accepter, quand il 
+a su qu'elle était la sœur de ce Busto Tabera, à qui il a 
+donné la mort.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Voici qui me surprend encore davantage. 
+Leur magnanimité offense la nature : l'une, avec toute raison pour se montrer cruelle, pardonne à son ennemi et le 
+délivrent lui, pour ne pas être inférieur à tant de générosité, 
+revient s'offrir à la mort. Si leurs actions parviennent à la 
+postérité, le burin qui en sera fait sera immortel. — Pedro 
+de Caus, prenez un carrosse, et sans bruit, sans appareil, 
+amenez au palais Sancho Ortiz dans le plus grand secret.</p> </sp>
+
+<sp who="#CAU"><speaker>LE GOUVERNEUR</speaker> <p>J'obéis.</p></sp> 
+<stage>SCÈNE VIII</stage>
+<stage>Entre UN SERVITEUR.</stage> 
+
+<sp who="SER"><speaker>le serviteur</speaker> <p>Les deux premiers alcades deman- 
+dent à voir Votre Majesté.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Qu'ils entrent. Ils peuvent garder leurs verges. <stage>(Sort le serviteur.)</stage> J'espère pouvoir tenir ma parole 
+à Sancho Ortiz, sans trahir mon secret.</p></sp> 
+
+<stage>(Entrent les deux alcades.)</stage> 
+
+<sp who="#PED"><speaker>DON PEDRO</speaker> <p>Sire, la cause est entendue, et la justice 
+doit suivre son cours.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Qu'elle le suive. Je vous demande seulement 
+de considérer ceci. Vous êtes pères de la patrie, et la justice 
+gagne quelquefois à être tempérée par la clémence. Sancho Ortiz est regidor de Séville, comme l'était celui qui 
+n'est plus ; si l'un demande vengeance, l'autre réclame la 
+pitié.</p> </sp>
+
+<sp who="#FAR"><speaker>DON FARFAN</speaker> <p>Nous sommes premiers alcades de 
+Séville; sur nous repose en ce moment le fardeau de sa 
+confiance et de son honneur. Ces verges sont l'emblème 
+de Votre Majesté. Si l'on abuse de votre image sacrée, 
+c'est une offense à voire personne. Tenues en droiture, ces 
+verges regardent Dieu; si elles plient et fléchissent, elles 
+s'inclinent vers l'homme, et s'éloignent du ciel en faiblissant.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Je ne demande point qu'elles fléchissent; je 
+veux seulement que votre justice s'accorde avec l'équité.</p></sp> 
+
+<sp who="#PED"><speaker>DON PEDRO</speaker> <p>Sire , c'est au nom de Votre Majesté que 
+nous rendons la justice. A votre sanction sont liées les 
+espérances des criminels. Sauvez la vie à Sancho Ortiz, 
+puisque vous n'avez de compte à rendre qu'à vous-même. 
+Dieu fait les rois; Dieu transporte de Saül à l'humble 
+David les insignes de la souveraineté.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker><stage>à Farfan</stage> <p>Entrez ici <stage>(lui indiquant une 
+porte)</stage>; examinez les motifs de la sentence, et que Sancho 
+Ortiz subisse le supplice ordonné par la loi. Vous, don Pedro de Guzman, un mot en particulier, je vous prie.</p></sp> 
+
+<stage>(Sort Farfan de Ribera.) </stage>
+
+<sp who="#PED"><speaker>DON PEDRO</speaker> <p>Que souhaite Votre Majesté?</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>En donnant la mort à Sancho, mon' cher don 
+Pedro, vous ne rendrez pas la vie au trépassé ! Évitons 
+les extrêmes.' Ne serait-il pas possible de l'exiler à Gibraltar, à Grenade, où il pourrait , à mon service, trouver 
+une mort volontaire ? Qu'en dites-vous?</p></sp> 
+
+<sp who="#PED"><speaker>DON PEDRO</speaker> <p>Je suis don Pedro de Guzman, qui se met 
+aux pieds de Votre Majesté. A vous appartient ma vie; à 
+vous ma fortune et mon épée.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Embrassez-moi, don Pedro de Guzman. Je 
+n'attendais pas moins d'un si noble cœur. — Allez avec 
+Dieu, et m'envoyez, je vous prie, Farfan de Ribera. <stage>(A part.)</stage> La flatterie aplanit les montagnes.</p></sp> 
+
+<stage>(Rentre Farfan.) </stage>
+
+<sp who="#FAR"><speaker>FARFAN</speaker> <p>Me voici à vos pieds.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Farfan de Ribera; j'étais peiné de voir condamner à mort Sancho Ortiz. Mais, il s'agirait maintenant 
+de changer cet arrêt en exil. Ce sera une mort prolongée 
+qui durera toute sa vie. Je voudrais votre avis avant de 
+me prononcer.</p></sp> 
+
+<sp who="#FAR"><speaker>FARFAN</speaker> <p>Votre Majesté peut sans hésiter confier à 
+Farfan de Ribera des affaires de plus d'importance. Pour 
+son service, il n'est rien que n'entreprenne ma loyauté.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Je le vois, vous êtes un Ribera. Soyez toujours 
+un modèle de noblesse et de vertu. Adieu. <stage>(Farfan se retire.)</stage> Je suis content de ma négociation. Sancho Ortiz 
+échappe à la mort, et je tiens ma promesse sans avoir 
+été deviné. Il sera général sur quelque point de la frontière. Je le récompense en l'exilant.</p></sp> 
+
+<stage>(Rentrent les alcades.) </stage>
+
+<sp who="#PED"><speaker>DON PEDRO</speaker> <p>La sentence est signée, mon redouté seigneur; il ne manque plus que de la soumettre à Votre 
+Majesté.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>D'insignes chevaliers tels que vous l'auront rendue, je pense, dans les termes que je souhaite.</p> </sp>
+
+
+<sp who="#FAR"><speaker>FARFAN</speaker> <p>Nous nous vantons surtout de notre loyauté.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <stage>lisant</stage><p>« Mandons et ordonnons qu'il ait la tête tranchée sur l'échafaud. » — Voilà la sentence que 
+vous m'apportez signée ! Traîtres, c'est ainsi, vive Dieu ! 
+que vous tenez la parole donnée à votre roi !</p></sp>
+
+<sp who="#FAR"><speaker>FARFAN</speaker> <p>Ayant déposé la verge, le plus humble de 
+tous devra tenir sa parole, aux dépens de sa vie, aux dépens de son âme : la verge en main, que nul ne fasse ou 
+prononce action ou parole coupable, en considération de 
+qui que ce soit, sur la terre comme au ciel.</p> </sp>
+
+<sp who="#PED"><speaker>DON PEDRO</speaker> <p>Dépouillés de nos insignes, nous obéirons 
+comme loyaux sujets; mais ne demandez pas un déni de 
+justice à des alcades mayors ayant en main la verge. La 
+Municipalité de Séville est ce qu'elle est.</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>C'est bien; il suffit; tous vous me couvrez de 
+confusion.</p></sp> 
+
+<stage>SCÈNE IX </stage>
+<stage>LES MÊMES, DON ARIAS, ESTELLE.</stage> 
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Doña Estrella attend les ordres de Votre 
+Majesté.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Que faire, don Arias? Quel est ton conseil 
+dans ces embarras inextricables ?</p></sp> 
+
+<sp who="#CAU"><speaker>LE GOUVERNEUR</speaker> <p>Sire, je vous amène don Sanche.</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Très-redouté seigneur, pourquoi ne pas 
+mettre par la mort un terme à mes disgrâces ? Quand verrai-je la fin de mon tourment? J'ai tué Busto Tabera; eh 
+bien ! que je meure : du sang pour du sang. Votre justice, seigneur, je l'appellerai miséricorde.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Un moment. De qui avez-vous reçu l'ordre de le tuer?</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>D'un papier.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Signé de qui?</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Si le papier pouvait parler, il le dirait, la 
+chose est évidente; mais un papier déchiré s'explique nécessairement fort mal. Tout ce que je sais, c'est que j'ai 
+donné la mort à l'homme que j'aimais le plus au monde, 
+parce que je l'avais promis. — Mais, voici Estelle qui 
+attend h vos pieds ma mort, et qui, même h ce prix, ne sera 
+pas assez vengée.</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker><p>Estelle, j'ai décidé votre mariage avec un 
+grand de ma maison, jeune, beau, personnage de la plus 
+haute distinction en Castille. En retour, nous vous demandons votre grâce et son pardon : il n'est pas juste que vous 
+refusiez.</p></sp> 
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Eh bien! seigneur, si je suis mariée, que 
+Sancho Ortiz soit libre; je renonce à ma vengeance.</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Ainsi tu m'accordes ton pardon parce 
+que Sa Majesté te marie.</p></sp> 
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Oui, c'est pour cela queje te pardonne.</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Et vous vous trouverez ainsi assez 
+vengée?</p></sp> 
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Vengée et satisfaite.</p> </sp>
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Eh bien! pour que vos désirs s'accomplissent, j'accepte la vie, bien que j'eusse préféré la mort.</p> </sp>
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Allez avec Dieu.</p></sp> 
+<sp who="#FAR"><speaker>DON FARFAN</speaker> <p>Prenez garde, sire; cet accord est une offense pour Séville. Il faut qu'il meure.</p> </sp>
+<sp who="#REY"><speaker>LE ROI</speaker> <stage>bas à don Arias</stage> <p>Que faire? Ces gens-là m'inpatientent et me déconcertent.</p> </sp>
+
+<sp who="#ARI"><speaker>DON ARIAS</speaker> <p>Parlez.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Que Séville donc me fasse mourir, puisque je 
+suis la cause de cette mort. C'est moi qui en ai donné 
+l'ordre, et cela suffit pour sa décharge.</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Mon honneur n'attendait que cet aveu. 
+Le roi m'avait ordonné de tuer. Je n'aurais jamais sans un 
+ordre du roi exécuté une action si barbare.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Il dit la vérité.</p> </sp>
+
+<sp who="#FAR"><speaker>FARFAN</speaker> <p>Dès lors Séville est satisfaite. Si Votre Majesté a donné un pareil ordre, elle avait sans doute ses 
+motifs.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>La noblesse de Séville me laisse dans l'admiration.</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker><p>Moi, je vais partir pour l'exil, quand 
+Votre Majesté aura tenu une autre promesse qu'elle m'a faite.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Je la tiendrai.</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Vous vous êtes engagé à me donner pour femme la dame que je demanderais.</p></sp>
+<sp who="#REY"><speaker>LE ROI</speaker> <p>C'est la vérité.</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Eh bien î je vous demande doña Estrella, 
+et, prosterné à ses pieds, je requiers le pardon de mon crime.</p></sp> 
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Sancho Ortiz, je suis mariée.</p></sp> 
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Mariée?</p> </sp>
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Oui.</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Je suis mort.</p></sp> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Estelle, j'ai donné cette parole; je suis roi, et 
+je dois la tenir. Que répondez-vous?</p></sp> 
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Qu'il soit fait selon votre plaisir. Je suis à lui!</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Je suis à elle.</p> </sp>
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Que manque-t-ii donc?</p></sp> 
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>L'union des âmes.</p> </sp>
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Et cette union, le mariage ne pourra jamais l'établir.</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Je le sens bien ; c'est pourquoi je te 
+rends ta parole.</p></sp> 
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Je te rends la tienne. Voir tous les jours, à 
+table, dans mon lit, le meurtrier de mon frère... me ferait trop de mal.</p></sp> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Et pour moi quel chagrin de passer ma 
+vie auprès de la sœur de celui que j'ai tué injustement, quand je l'aimais comme mon âme.</p></sp> 
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Ainsi, nous demeurons libres.</p> </sp>
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Libres.</p></sp> 
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Eh bien ! adieu.</p> </sp>
+
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Adieu.</p> </sp>
+<sp><speaker>LE ROI</speaker> <p>Un moment...</p></sp> 
+
+<sp who="#EST"><speaker>ESTELLE</speaker> <p>Sire, l'homme qui a tué mon frère ne sera 
+jamais mon époux, et pourtant je l'aime et je l'adore.</p></sp> 
+
+<stage>(Elle s'éloigne en pleurs.)</stage> 
+
+<sp who="#SAN"><speaker>DON SANCHE</speaker> <p>Et moi qui l'aime tant, je renonce à elle. 
+Cela est juste.</p></sp> 
+
+<stage>(Il sort.)</stage> 
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Quelle grandeur !</p></sp> 
+
+<sp who="ARI"><speaker>DON ARIAS</speaker> <p>Quelle constance !</p></sp> 
+
+<sp who="#CLA"><speaker>CLARINDO</speaker> <p>Moi, j'appelle cela de la folie.</p> </sp>
+
+<sp who="#REY"><speaker>LE ROI</speaker> <p>Je demeure étonné, stupéfait.</p></sp> 
+
+<sp who="#PED"><speaker>DON PEDRO</speaker><p> Voilà le caractère des gens de Séville.</p></sp> 
+
+<sp who="#CLA"><speaker>CLARINDO</speaker> <p>Vous avez entendu la tragédie que Lope 
+vous a consacrée. Jamais ne sera oubliée l'ÉTOILE DE SEVILLE.</p> </sp>
+
+<stage>FIN DE LA TROISIÊME ET DERNIÈRE JOURNÉE.</stage> 
+ </div>
+            
+ </body>
+    </text>
+
+</TEI>

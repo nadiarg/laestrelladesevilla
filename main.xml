@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<textos xmlns="html://nadia.org" title="La Estrella de Sevilla">
+    <texto src="estrella-app.xml" titulo="La Estrella de Sevilla">
+        <version id="s" nombre="Suelta"/>
+        <version id="f" nombre="Foulché"/>
+        <version id="d" nombre="Desglosada"/>
+        <version id="nrg" nombre="Nàdia Revenga"/>
+    </texto>
+    <texto src="estrella_ingles.xml" titulo="The Star of Seville">
+        <version id="e" nombre="Inglés"/>
+    </texto>
+    <texto src="estrella_frances.xml" titulo="LÉtoile de Séville">
+        <version id="fr" nombre="Francés"/>
+    </texto>
+     <texto src="estrella_italiano.xml" titulo="La Stella di Siviglia">
+        <version id="i" nombre="Italiano"/>
+    </texto>
+</textos>
